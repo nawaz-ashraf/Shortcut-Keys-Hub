@@ -3,6 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../core/providers.dart';
 import '../../widgets/empty_state.dart';
+import '../../widgets/premium_back_button.dart';
 import '../../widgets/shortcut_card.dart';
 
 class RecentScreen extends ConsumerWidget {
@@ -15,6 +16,8 @@ class RecentScreen extends ConsumerWidget {
 
     return Scaffold(
       appBar: AppBar(
+        leading: const PremiumBackButton(),
+        leadingWidth: 60,
         title: const Text('Recently Viewed'),
         actions: [
           IconButton(

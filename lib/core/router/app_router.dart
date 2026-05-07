@@ -8,6 +8,8 @@ import '../../features/favorites/favorites_screen.dart';
 import '../../features/home/home_screen.dart';
 import '../../features/keyboard_viewer/keyboard_viewer_screen.dart';
 import '../../features/onboarding/onboarding_screen.dart';
+import '../../features/quiz/quiz_category_screen.dart';
+import '../../features/quiz/quiz_result_screen.dart';
 import '../../features/quiz/quiz_screen.dart';
 import '../../features/recent/recent_screen.dart';
 import '../../features/search/search_screen.dart';
@@ -59,7 +61,7 @@ final appRouterProvider = Provider<GoRouter>((ref) {
             routes: [
               GoRoute(
                 path: '/quiz',
-                builder: (context, state) => const QuizScreen(),
+                builder: (context, state) => const QuizCategoryScreen(),
               ),
             ],
           ),
@@ -73,26 +75,77 @@ final appRouterProvider = Provider<GoRouter>((ref) {
           ),
         ],
       ),
+      // ─── DETAIL / SUB-SCREENS ───────────────────────────────────────
       GoRoute(
         path: '/category/:id',
         pageBuilder: (context, state) {
           final id = state.pathParameters['id'] ?? 'windows';
-          return _fadePage(state, CategoryScreen(categoryId: id));
+          return _slidePage(state, CategoryScreen(categoryId: id));
         },
       ),
       GoRoute(
         path: '/recent',
-        pageBuilder: (context, state) => _fadePage(state, const RecentScreen()),
+        pageBuilder: (context, state) =>
+            _slidePage(state, const RecentScreen()),
       ),
       GoRoute(
         path: '/keyboard',
         pageBuilder: (context, state) =>
-            _fadePage(state, const KeyboardViewerScreen()),
+            _slidePage(state, const KeyboardViewerScreen()),
+      ),
+      // ─── QUIZ PLAY & RESULTS ────────────────────────────────────────
+      GoRoute(
+        path: '/quiz/play/:categoryId',
+        pageBuilder: (context, state) {
+          final categoryId = state.pathParameters['categoryId'] ?? 'all';
+          return _slidePage(state, QuizScreen(categoryId: categoryId));
+        },
+      ),
+      GoRoute(
+        path: '/quiz/result',
+        pageBuilder: (context, state) {
+          final extra = state.extra as Map<String, dynamic>? ?? {};
+          return _slidePage(
+            state,
+            QuizResultScreen(
+              score: extra['score'] as int? ?? 0,
+              correct: extra['correct'] as int? ?? 0,
+              total: extra['total'] as int? ?? 1,
+              categoryId: extra['categoryId'] as String? ?? 'all',
+            ),
+          );
+        },
       ),
     ],
   );
 });
 
+/// Cupertino-style slide transition for detail screens.
+CustomTransitionPage<void> _slidePage(GoRouterState state, Widget child) {
+  return CustomTransitionPage<void>(
+    key: state.pageKey,
+    child: child,
+    transitionDuration: const Duration(milliseconds: 350),
+    reverseTransitionDuration: const Duration(milliseconds: 300),
+    transitionsBuilder: (context, animation, secondaryAnimation, child) {
+      final slideIn = Tween<Offset>(
+        begin: const Offset(1.0, 0.0),
+        end: Offset.zero,
+      ).animate(CurvedAnimation(parent: animation, curve: Curves.easeOutCubic));
+
+      final fadeIn = Tween<double>(begin: 0.6, end: 1.0).animate(
+        CurvedAnimation(parent: animation, curve: Curves.easeOut),
+      );
+
+      return SlideTransition(
+        position: slideIn,
+        child: FadeTransition(opacity: fadeIn, child: child),
+      );
+    },
+  );
+}
+
+/// Simple fade transition for onboarding.
 CustomTransitionPage<void> _fadePage(GoRouterState state, Widget child) {
   return CustomTransitionPage<void>(
     key: state.pageKey,

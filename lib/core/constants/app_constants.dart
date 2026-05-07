@@ -14,6 +14,13 @@ class AppConstants {
 
   static const int recentLimit = 30;
 
+  // Quiz constants
+  static const int quizTimerSeconds = 15;
+  static const int quizQuestionCount = 10;
+  static const int quizCorrectXp = 10;
+  static const int quizSpeedBonusXp = 5;
+  static const String keyQuizTotalXp = 'quiz_total_xp';
+
   static const String dataWindows = 'assets/data/windows.json';
   static const String dataMac = 'assets/data/macos.json';
   static const String dataExcel = 'assets/data/excel.json';

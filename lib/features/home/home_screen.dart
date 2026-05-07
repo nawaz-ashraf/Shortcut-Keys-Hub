@@ -7,6 +7,7 @@ import '../../core/constants/app_categories.dart';
 import '../../core/constants/app_constants.dart';
 import '../../core/providers.dart';
 import '../../models/shortcut.dart';
+import '../../widgets/banner_ad_widget.dart';
 import '../../widgets/category_card.dart';
 import '../../widgets/search_field.dart';
 import '../../widgets/section_header.dart';
@@ -277,6 +278,10 @@ class HomeScreen extends ConsumerWidget {
             ],
           ),
         ),
+      ),
+      bottomNavigationBar: const SafeArea(
+        top: false,
+        child: BannerAdWidget(),
       ),
     );
   }

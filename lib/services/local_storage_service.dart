@@ -63,4 +63,14 @@ class LocalStorageService {
   Future<void> saveRecent(List<String> ids) async {
     await _recentBox.put(AppConstants.keyRecent, ids);
   }
+
+  // ─── QUIZ XP ─────────────────────────────────────────────────────────
+
+  int loadQuizXp() {
+    return _settingsBox.get(AppConstants.keyQuizTotalXp, defaultValue: 0) as int;
+  }
+
+  Future<void> saveQuizXp(int xp) async {
+    await _settingsBox.put(AppConstants.keyQuizTotalXp, xp);
+  }
 }

@@ -65,3 +65,21 @@ final searchResultsProvider = Provider<List<ShortcutItem>>((ref) {
     orElse: () => <ShortcutItem>[],
   );
 });
+
+// ─── QUIZ XP ──────────────────────────────────────────────────────────
+
+class QuizXpNotifier extends StateNotifier<int> {
+  QuizXpNotifier(this._storage) : super(_storage.loadQuizXp());
+
+  final LocalStorageService _storage;
+
+  Future<void> addXp(int xp) async {
+    state = state + xp;
+    await _storage.saveQuizXp(state);
+  }
+}
+
+final quizTotalXpProvider = StateNotifierProvider<QuizXpNotifier, int>((ref) {
+  return QuizXpNotifier(ref.watch(storageServiceProvider));
+});
+
