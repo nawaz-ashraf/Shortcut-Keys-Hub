@@ -1,42 +1,560 @@
 [
-  {"id":"word-001","category":"word","shortcut":"Ctrl + C","function":"Copy"},
-  {"id":"word-002","category":"word","shortcut":"Ctrl + X","function":"Cut"},
-  {"id":"word-003","category":"word","shortcut":"Ctrl + V","function":"Paste"},
-  {"id":"word-004","category":"word","shortcut":"Ctrl + Z","function":"Undo"},
-  {"id":"word-005","category":"word","shortcut":"Ctrl + Y","function":"Redo"},
-  {"id":"word-006","category":"word","shortcut":"Ctrl + A","function":"Select all"},
-  {"id":"word-007","category":"word","shortcut":"Ctrl + S","function":"Save"},
-  {"id":"word-008","category":"word","shortcut":"Ctrl + N","function":"New document"},
-  {"id":"word-009","category":"word","shortcut":"Ctrl + O","function":"Open document"},
-  {"id":"word-010","category":"word","shortcut":"Ctrl + P","function":"Print"},
-  {"id":"word-011","category":"word","shortcut":"Ctrl + W","function":"Close document"},
-  {"id":"word-012","category":"word","shortcut":"Ctrl + B","function":"Bold"},
-  {"id":"word-013","category":"word","shortcut":"Ctrl + I","function":"Italic"},
-  {"id":"word-014","category":"word","shortcut":"Ctrl + U","function":"Underline"},
-  {"id":"word-015","category":"word","shortcut":"Ctrl + F","function":"Find"},
-  {"id":"word-016","category":"word","shortcut":"Ctrl + H","function":"Replace"},
-  {"id":"word-017","category":"word","shortcut":"Ctrl + G","function":"Go To"},
-  {"id":"word-018","category":"word","shortcut":"Ctrl + K","function":"Insert hyperlink"},
-  {"id":"word-019","category":"word","shortcut":"Ctrl + L","function":"Align left"},
-  {"id":"word-020","category":"word","shortcut":"Ctrl + E","function":"Align center"},
-  {"id":"word-021","category":"word","shortcut":"Ctrl + R","function":"Align right"},
-  {"id":"word-022","category":"word","shortcut":"Ctrl + J","function":"Justify"},
-  {"id":"word-023","category":"word","shortcut":"Ctrl + 1","function":"Single line spacing"},
-  {"id":"word-024","category":"word","shortcut":"Ctrl + 2","function":"Double line spacing"},
-  {"id":"word-025","category":"word","shortcut":"Ctrl + 5","function":"1.5 line spacing"},
-  {"id":"word-026","category":"word","shortcut":"Ctrl + Shift + >","function":"Increase font size"},
-  {"id":"word-027","category":"word","shortcut":"Ctrl + Shift + <","function":"Decrease font size"},
-  {"id":"word-028","category":"word","shortcut":"Ctrl + Shift + C","function":"Copy formatting"},
-  {"id":"word-029","category":"word","shortcut":"Ctrl + Shift + V","function":"Paste formatting"},
-  {"id":"word-030","category":"word","shortcut":"Ctrl + Shift + N","function":"Normal style"},
-  {"id":"word-031","category":"word","shortcut":"Ctrl + Shift + L","function":"Bulleted list"},
-  {"id":"word-032","category":"word","shortcut":"Ctrl + M","function":"Increase indent"},
-  {"id":"word-033","category":"word","shortcut":"Ctrl + Shift + M","function":"Decrease indent"},
-  {"id":"word-034","category":"word","shortcut":"Ctrl + T","function":"Hanging indent"},
-  {"id":"word-035","category":"word","shortcut":"Ctrl + Shift + T","function":"Reduce hanging indent"},
-  {"id":"word-036","category":"word","shortcut":"Ctrl + Q","function":"Clear paragraph formatting"},
-  {"id":"word-037","category":"word","shortcut":"Ctrl + Space","function":"Clear character formatting"},
-  {"id":"word-038","category":"word","shortcut":"F7","function":"Spelling & grammar"},
-  {"id":"word-039","category":"word","shortcut":"Shift + F3","function":"Change case"},
-  {"id":"word-040","category":"word","shortcut":"Ctrl + Enter","function":"Insert page break"}
+  {
+    "id": "word-001",
+    "category": "word",
+    "shortcut": "Ctrl + C",
+    "function": "Copy"
+  },
+  {
+    "id": "word-002",
+    "category": "word",
+    "shortcut": "Ctrl + X",
+    "function": "Cut"
+  },
+  {
+    "id": "word-003",
+    "category": "word",
+    "shortcut": "Ctrl + V",
+    "function": "Paste"
+  },
+  {
+    "id": "word-004",
+    "category": "word",
+    "shortcut": "Ctrl + Z",
+    "function": "Undo"
+  },
+  {
+    "id": "word-005",
+    "category": "word",
+    "shortcut": "Ctrl + Y",
+    "function": "Redo"
+  },
+  {
+    "id": "word-006",
+    "category": "word",
+    "shortcut": "Ctrl + A",
+    "function": "Select all"
+  },
+  {
+    "id": "word-007",
+    "category": "word",
+    "shortcut": "Ctrl + S",
+    "function": "Save"
+  },
+  {
+    "id": "word-008",
+    "category": "word",
+    "shortcut": "Ctrl + N",
+    "function": "New document"
+  },
+  {
+    "id": "word-009",
+    "category": "word",
+    "shortcut": "Ctrl + O",
+    "function": "Open document"
+  },
+  {
+    "id": "word-010",
+    "category": "word",
+    "shortcut": "Ctrl + P",
+    "function": "Print"
+  },
+  {
+    "id": "word-011",
+    "category": "word",
+    "shortcut": "Ctrl + W",
+    "function": "Close document"
+  },
+  {
+    "id": "word-012",
+    "category": "word",
+    "shortcut": "Ctrl + B",
+    "function": "Bold"
+  },
+  {
+    "id": "word-013",
+    "category": "word",
+    "shortcut": "Ctrl + I",
+    "function": "Italic"
+  },
+  {
+    "id": "word-014",
+    "category": "word",
+    "shortcut": "Ctrl + U",
+    "function": "Underline"
+  },
+  {
+    "id": "word-015",
+    "category": "word",
+    "shortcut": "Ctrl + F",
+    "function": "Find"
+  },
+  {
+    "id": "word-016",
+    "category": "word",
+    "shortcut": "Ctrl + H",
+    "function": "Replace"
+  },
+  {
+    "id": "word-017",
+    "category": "word",
+    "shortcut": "Ctrl + G",
+    "function": "Go To"
+  },
+  {
+    "id": "word-018",
+    "category": "word",
+    "shortcut": "Ctrl + K",
+    "function": "Insert hyperlink"
+  },
+  {
+    "id": "word-019",
+    "category": "word",
+    "shortcut": "Ctrl + L",
+    "function": "Align left"
+  },
+  {
+    "id": "word-020",
+    "category": "word",
+    "shortcut": "Ctrl + E",
+    "function": "Align center"
+  },
+  {
+    "id": "word-021",
+    "category": "word",
+    "shortcut": "Ctrl + R",
+    "function": "Align right"
+  },
+  {
+    "id": "word-022",
+    "category": "word",
+    "shortcut": "Ctrl + J",
+    "function": "Justify"
+  },
+  {
+    "id": "word-023",
+    "category": "word",
+    "shortcut": "Ctrl + 1",
+    "function": "Single line spacing"
+  },
+  {
+    "id": "word-024",
+    "category": "word",
+    "shortcut": "Ctrl + 2",
+    "function": "Double line spacing"
+  },
+  {
+    "id": "word-025",
+    "category": "word",
+    "shortcut": "Ctrl + 5",
+    "function": "1.5 line spacing"
+  },
+  {
+    "id": "word-026",
+    "category": "word",
+    "shortcut": "Ctrl + Shift + >",
+    "function": "Increase font size"
+  },
+  {
+    "id": "word-027",
+    "category": "word",
+    "shortcut": "Ctrl + Shift + <",
+    "function": "Decrease font size"
+  },
+  {
+    "id": "word-028",
+    "category": "word",
+    "shortcut": "Ctrl + Shift + C",
+    "function": "Copy formatting"
+  },
+  {
+    "id": "word-029",
+    "category": "word",
+    "shortcut": "Ctrl + Shift + V",
+    "function": "Paste formatting"
+  },
+  {
+    "id": "word-030",
+    "category": "word",
+    "shortcut": "Ctrl + Shift + N",
+    "function": "Normal style"
+  },
+  {
+    "id": "word-031",
+    "category": "word",
+    "shortcut": "Ctrl + Shift + L",
+    "function": "Bulleted list"
+  },
+  {
+    "id": "word-032",
+    "category": "word",
+    "shortcut": "Ctrl + M",
+    "function": "Increase indent"
+  },
+  {
+    "id": "word-033",
+    "category": "word",
+    "shortcut": "Ctrl + Shift + M",
+    "function": "Decrease indent"
+  },
+  {
+    "id": "word-034",
+    "category": "word",
+    "shortcut": "Ctrl + T",
+    "function": "Hanging indent"
+  },
+  {
+    "id": "word-035",
+    "category": "word",
+    "shortcut": "Ctrl + Shift + T",
+    "function": "Reduce hanging indent"
+  },
+  {
+    "id": "word-036",
+    "category": "word",
+    "shortcut": "Ctrl + Q",
+    "function": "Clear paragraph formatting"
+  },
+  {
+    "id": "word-037",
+    "category": "word",
+    "shortcut": "Ctrl + Space",
+    "function": "Clear character formatting"
+  },
+  {
+    "id": "word-038",
+    "category": "word",
+    "shortcut": "F7",
+    "function": "Spelling & grammar"
+  },
+  {
+    "id": "word-039",
+    "category": "word",
+    "shortcut": "Shift + F3",
+    "function": "Change case"
+  },
+  {
+    "id": "word-040",
+    "category": "word",
+    "shortcut": "Ctrl + Enter",
+    "function": "Insert page break"
+  },
+  {
+    "id": "word-041",
+    "shortcut": "Ctrl + Shift + S",
+    "function": "Apply Styles pane",
+    "category": "word"
+  },
+  {
+    "id": "word-042",
+    "shortcut": "Ctrl + Shift + K",
+    "function": "Small capitals",
+    "category": "word"
+  },
+  {
+    "id": "word-043",
+    "shortcut": "Ctrl + Shift + A",
+    "function": "All capitals",
+    "category": "word"
+  },
+  {
+    "id": "word-044",
+    "shortcut": "Ctrl + Shift + W",
+    "function": "Underline words only",
+    "category": "word"
+  },
+  {
+    "id": "word-045",
+    "shortcut": "Ctrl + Shift + D",
+    "function": "Double underline",
+    "category": "word"
+  },
+  {
+    "id": "word-046",
+    "shortcut": "Ctrl + Shift + H",
+    "function": "Hidden text",
+    "category": "word"
+  },
+  {
+    "id": "word-047",
+    "shortcut": "Ctrl + D",
+    "function": "Font dialog box",
+    "category": "word"
+  },
+  {
+    "id": "word-048",
+    "shortcut": "Ctrl + Shift + Q",
+    "function": "Symbol font",
+    "category": "word"
+  },
+  {
+    "id": "word-049",
+    "shortcut": "Ctrl + =",
+    "function": "Subscript toggle",
+    "category": "word"
+  },
+  {
+    "id": "word-050",
+    "shortcut": "Ctrl + Shift + =",
+    "function": "Superscript toggle",
+    "category": "word"
+  },
+  {
+    "id": "word-051",
+    "shortcut": "Ctrl + Alt + 1",
+    "function": "Heading 1 style",
+    "category": "word"
+  },
+  {
+    "id": "word-052",
+    "shortcut": "Ctrl + Alt + 2",
+    "function": "Heading 2 style",
+    "category": "word"
+  },
+  {
+    "id": "word-053",
+    "shortcut": "Ctrl + Alt + 3",
+    "function": "Heading 3 style",
+    "category": "word"
+  },
+  {
+    "id": "word-054",
+    "shortcut": "Alt + Shift + D",
+    "function": "Insert date field",
+    "category": "word"
+  },
+  {
+    "id": "word-055",
+    "shortcut": "Alt + Shift + T",
+    "function": "Insert time field",
+    "category": "word"
+  },
+  {
+    "id": "word-056",
+    "shortcut": "Alt + Shift + P",
+    "function": "Insert page number",
+    "category": "word"
+  },
+  {
+    "id": "word-057",
+    "shortcut": "Ctrl + Shift + Enter",
+    "function": "Column break",
+    "category": "word"
+  },
+  {
+    "id": "word-058",
+    "shortcut": "Shift + Enter",
+    "function": "Line break",
+    "category": "word"
+  },
+  {
+    "id": "word-059",
+    "shortcut": "Ctrl + Shift + Space",
+    "function": "Non-breaking space",
+    "category": "word"
+  },
+  {
+    "id": "word-060",
+    "shortcut": "Ctrl + Shift + -",
+    "function": "Non-breaking hyphen",
+    "category": "word"
+  },
+  {
+    "id": "word-061",
+    "shortcut": "Ctrl + Alt + M",
+    "function": "Insert comment",
+    "category": "word"
+  },
+  {
+    "id": "word-062",
+    "shortcut": "Ctrl + Shift + E",
+    "function": "Track Changes toggle",
+    "category": "word"
+  },
+  {
+    "id": "word-063",
+    "shortcut": "Alt + Shift + C",
+    "function": "Close Review pane",
+    "category": "word"
+  },
+  {
+    "id": "word-064",
+    "shortcut": "Alt + Shift + N",
+    "function": "Next revision",
+    "category": "word"
+  },
+  {
+    "id": "word-065",
+    "shortcut": "Alt + Shift + A",
+    "function": "Accept all changes",
+    "category": "word"
+  },
+  {
+    "id": "word-066",
+    "shortcut": "Alt + Ctrl + Home",
+    "function": "Browse document start",
+    "category": "word"
+  },
+  {
+    "id": "word-067",
+    "shortcut": "Ctrl + Alt + Page Down",
+    "function": "Next browse point",
+    "category": "word"
+  },
+  {
+    "id": "word-068",
+    "shortcut": "Ctrl + Alt + Page Up",
+    "function": "Previous browse point",
+    "category": "word"
+  },
+  {
+    "id": "word-069",
+    "shortcut": "F5",
+    "function": "Go To / Find & Replace",
+    "category": "word"
+  },
+  {
+    "id": "word-070",
+    "shortcut": "Shift + F5",
+    "function": "Return to last edit point",
+    "category": "word"
+  },
+  {
+    "id": "word-071",
+    "shortcut": "Alt + Ctrl + Z",
+    "function": "Cycle last 4 edit points",
+    "category": "word"
+  },
+  {
+    "id": "word-072",
+    "shortcut": "F8",
+    "function": "Extend selection mode",
+    "category": "word"
+  },
+  {
+    "id": "word-073",
+    "shortcut": "Shift + F8",
+    "function": "Shrink selection",
+    "category": "word"
+  },
+  {
+    "id": "word-074",
+    "shortcut": "Ctrl + Shift + F5",
+    "function": "Insert bookmark",
+    "category": "word"
+  },
+  {
+    "id": "word-075",
+    "shortcut": "Alt + F9",
+    "function": "Toggle field codes",
+    "category": "word"
+  },
+  {
+    "id": "word-076",
+    "shortcut": "F9",
+    "function": "Update selected field",
+    "category": "word"
+  },
+  {
+    "id": "word-077",
+    "shortcut": "Ctrl + F9",
+    "function": "Insert empty field",
+    "category": "word"
+  },
+  {
+    "id": "word-078",
+    "shortcut": "Ctrl + Shift + F9",
+    "function": "Unlink field",
+    "category": "word"
+  },
+  {
+    "id": "word-079",
+    "shortcut": "F11",
+    "function": "Next field",
+    "category": "word"
+  },
+  {
+    "id": "word-080",
+    "shortcut": "Shift + F11",
+    "function": "Previous field",
+    "category": "word"
+  },
+  {
+    "id": "word-081",
+    "shortcut": "Alt + F5",
+    "function": "Restore window size",
+    "category": "word"
+  },
+  {
+    "id": "word-082",
+    "shortcut": "Ctrl + Alt + S",
+    "function": "Split document window",
+    "category": "word"
+  },
+  {
+    "id": "word-083",
+    "shortcut": "Alt + Shift + F7",
+    "function": "Thesaurus",
+    "category": "word"
+  },
+  {
+    "id": "word-084",
+    "shortcut": "Ctrl + Shift + 8",
+    "function": "Show/hide formatting marks",
+    "category": "word"
+  },
+  {
+    "id": "word-085",
+    "shortcut": "Alt + Shift + O",
+    "function": "Mark Table of Contents",
+    "category": "word"
+  },
+  {
+    "id": "word-086",
+    "shortcut": "Alt + Shift + I",
+    "function": "Mark citation",
+    "category": "word"
+  },
+  {
+    "id": "word-087",
+    "shortcut": "Alt + Shift + X",
+    "function": "Mark index entry",
+    "category": "word"
+  },
+  {
+    "id": "word-088",
+    "shortcut": "Alt + Ctrl + F",
+    "function": "Insert footnote",
+    "category": "word"
+  },
+  {
+    "id": "word-089",
+    "shortcut": "Alt + Ctrl + D",
+    "function": "Insert endnote",
+    "category": "word"
+  },
+  {
+    "id": "word-090",
+    "shortcut": "Ctrl + Alt + V",
+    "function": "Paste Special dialog",
+    "category": "word"
+  },
+  {
+    "id": "word-091",
+    "shortcut": "Alt + Shift + K",
+    "function": "Mail merge preview",
+    "category": "word"
+  },
+  {
+    "id": "word-092",
+    "shortcut": "Alt + Shift + M",
+    "function": "Insert merge field",
+    "category": "word"
+  },
+  {
+    "id": "word-093",
+    "shortcut": "Ctrl + F2",
+    "function": "Print preview",
+    "category": "word"
+  }
 ]

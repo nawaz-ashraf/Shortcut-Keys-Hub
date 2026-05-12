@@ -7,6 +7,7 @@ class ShortcutCategory {
     required this.icon,
     required this.dataFile,
     required this.accent,
+    this.logoUrl,
   });
 
   final String id;
@@ -14,4 +15,5 @@ class ShortcutCategory {
   final IconData icon;
   final String dataFile;
   final Color accent;
+  final String? logoUrl;
 }

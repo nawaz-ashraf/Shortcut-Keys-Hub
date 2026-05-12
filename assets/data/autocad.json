@@ -1,149 +1,1381 @@
 [
-  {"id":"ac-001","category":"autocad","shortcut":"L","function":"Line — Draw a straight line segment"},
-  {"id":"ac-002","category":"autocad","shortcut":"PL","function":"Polyline — Draw connected lines and arcs"},
-  {"id":"ac-003","category":"autocad","shortcut":"C","function":"Circle — Draw a circle"},
-  {"id":"ac-004","category":"autocad","shortcut":"A","function":"Arc — Draw an arc segment"},
-  {"id":"ac-005","category":"autocad","shortcut":"REC","function":"Rectangle — Draw a rectangular polyline"},
-  {"id":"ac-006","category":"autocad","shortcut":"EL","function":"Ellipse — Draw an ellipse"},
-  {"id":"ac-007","category":"autocad","shortcut":"SPL","function":"Spline — Draw a smooth curve"},
-  {"id":"ac-008","category":"autocad","shortcut":"ML","function":"Multiline — Draw parallel lines"},
-  {"id":"ac-009","category":"autocad","shortcut":"RAY","function":"Ray — Semi-infinite line from a point"},
-  {"id":"ac-010","category":"autocad","shortcut":"XL","function":"Construction Line — Infinite line"},
-  {"id":"ac-011","category":"autocad","shortcut":"POL","function":"Polygon — Regular polygon"},
-  {"id":"ac-012","category":"autocad","shortcut":"DO","function":"Donut — Filled circle or ring"},
-  {"id":"ac-013","category":"autocad","shortcut":"HELIX","function":"Helix — 2D or 3D spiral"},
-  {"id":"ac-014","category":"autocad","shortcut":"PO","function":"Point — Place a point object"},
-  {"id":"ac-015","category":"autocad","shortcut":"REV","function":"Revolve — 3D solid by revolving"},
-  {"id":"ac-016","category":"autocad","shortcut":"M","function":"Move — Relocate objects"},
-  {"id":"ac-017","category":"autocad","shortcut":"CO","function":"Copy — Duplicate objects"},
-  {"id":"ac-018","category":"autocad","shortcut":"RO","function":"Rotate — Rotate around base point"},
-  {"id":"ac-019","category":"autocad","shortcut":"SC","function":"Scale — Resize proportionally"},
-  {"id":"ac-020","category":"autocad","shortcut":"MI","function":"Mirror — Create mirrored copy"},
-  {"id":"ac-021","category":"autocad","shortcut":"S","function":"Stretch — Stretch crossing objects"},
-  {"id":"ac-022","category":"autocad","shortcut":"O","function":"Offset — Parallel copy at distance"},
-  {"id":"ac-023","category":"autocad","shortcut":"TR","function":"Trim — Remove at cutting edges"},
-  {"id":"ac-024","category":"autocad","shortcut":"EX","function":"Extend — Extend to boundary"},
-  {"id":"ac-025","category":"autocad","shortcut":"F","function":"Fillet — Round edges with arc"},
-  {"id":"ac-026","category":"autocad","shortcut":"CHA","function":"Chamfer — Bevel edges"},
-  {"id":"ac-027","category":"autocad","shortcut":"BR","function":"Break — Break object at points"},
-  {"id":"ac-028","category":"autocad","shortcut":"J","function":"Join — Combine into one object"},
-  {"id":"ac-029","category":"autocad","shortcut":"X","function":"Explode — Break compound object"},
-  {"id":"ac-030","category":"autocad","shortcut":"AR","function":"Array — Rectangular or polar pattern"},
-  {"id":"ac-031","category":"autocad","shortcut":"AL","function":"Align — Align objects in 2D/3D"},
-  {"id":"ac-032","category":"autocad","shortcut":"LEN","function":"Lengthen — Change object length"},
-  {"id":"ac-033","category":"autocad","shortcut":"E","function":"Erase — Delete selected objects"},
-  {"id":"ac-034","category":"autocad","shortcut":"PEDIT","function":"Polyline Edit — Modify polyline"},
-  {"id":"ac-035","category":"autocad","shortcut":"SPLINEDIT","function":"Spline Edit — Modify spline"},
-  {"id":"ac-036","category":"autocad","shortcut":"LA","function":"Layer Properties Manager"},
-  {"id":"ac-037","category":"autocad","shortcut":"LAYISO","function":"Layer Isolate — Hide other layers"},
-  {"id":"ac-038","category":"autocad","shortcut":"LAYUNISO","function":"Layer Unisolate — Restore layers"},
-  {"id":"ac-039","category":"autocad","shortcut":"LAYMCH","function":"Layer Match — Match target layer"},
-  {"id":"ac-040","category":"autocad","shortcut":"LAYOFF","function":"Layer Off — Turn off layer"},
-  {"id":"ac-041","category":"autocad","shortcut":"LAYON","function":"Layer On — Turn on all layers"},
-  {"id":"ac-042","category":"autocad","shortcut":"LAYFRZ","function":"Layer Freeze — Freeze layer"},
-  {"id":"ac-043","category":"autocad","shortcut":"LAYTHW","function":"Layer Thaw — Thaw all layers"},
-  {"id":"ac-044","category":"autocad","shortcut":"LAYLCK","function":"Layer Lock — Prevent editing"},
-  {"id":"ac-045","category":"autocad","shortcut":"LAYULK","function":"Layer Unlock — Unlock layer"},
-  {"id":"ac-046","category":"autocad","shortcut":"LAYDEL","function":"Layer Delete — Delete layer"},
-  {"id":"ac-047","category":"autocad","shortcut":"DIM","function":"Dimension — Auto dimension"},
-  {"id":"ac-048","category":"autocad","shortcut":"DIMLINEAR","function":"Linear Dimension"},
-  {"id":"ac-049","category":"autocad","shortcut":"DIMALIGNED","function":"Aligned Dimension"},
-  {"id":"ac-050","category":"autocad","shortcut":"DIMRADIUS","function":"Radius Dimension"},
-  {"id":"ac-051","category":"autocad","shortcut":"DIMDIAMETER","function":"Diameter Dimension"},
-  {"id":"ac-052","category":"autocad","shortcut":"DIMANGULAR","function":"Angular Dimension"},
-  {"id":"ac-053","category":"autocad","shortcut":"DIMBASELINE","function":"Baseline Dimension"},
-  {"id":"ac-054","category":"autocad","shortcut":"DIMCONTINUE","function":"Continue Dimension — Chain dims"},
-  {"id":"ac-055","category":"autocad","shortcut":"DIMCENTER","function":"Center Mark on circle/arc"},
-  {"id":"ac-056","category":"autocad","shortcut":"DIMSTYLE","function":"Dimension Style Manager"},
-  {"id":"ac-057","category":"autocad","shortcut":"DIMARC","function":"Arc Length Dimension"},
-  {"id":"ac-058","category":"autocad","shortcut":"DIMORDINATE","function":"Ordinate Dimension"},
-  {"id":"ac-059","category":"autocad","shortcut":"P","function":"Pan — Shift view without zoom"},
-  {"id":"ac-060","category":"autocad","shortcut":"Z","function":"Zoom — Zoom in/out"},
-  {"id":"ac-061","category":"autocad","shortcut":"Z + E","function":"Zoom Extents — Fit all objects"},
-  {"id":"ac-062","category":"autocad","shortcut":"Z + A","function":"Zoom All — Full drawing limits"},
-  {"id":"ac-063","category":"autocad","shortcut":"Z + W","function":"Zoom Window — Zoom to area"},
-  {"id":"ac-064","category":"autocad","shortcut":"Z + P","function":"Zoom Previous — Last view"},
-  {"id":"ac-065","category":"autocad","shortcut":"ORBIT","function":"3D Orbit — Rotate 3D view"},
-  {"id":"ac-066","category":"autocad","shortcut":"RE","function":"Regen — Regenerate display"},
-  {"id":"ac-067","category":"autocad","shortcut":"REA","function":"Regen All viewports"},
-  {"id":"ac-068","category":"autocad","shortcut":"VPORTS","function":"Viewports — Manage viewports"},
-  {"id":"ac-069","category":"autocad","shortcut":"T","function":"Multiline Text editor"},
-  {"id":"ac-070","category":"autocad","shortcut":"DT","function":"Single Line Text"},
-  {"id":"ac-071","category":"autocad","shortcut":"MT","function":"Mtext — Multiline text alias"},
-  {"id":"ac-072","category":"autocad","shortcut":"QLEADER","function":"Quick Leader annotation"},
-  {"id":"ac-073","category":"autocad","shortcut":"MLD","function":"Multileader annotation"},
-  {"id":"ac-074","category":"autocad","shortcut":"MLEADERSTYLE","function":"Multileader Style settings"},
-  {"id":"ac-075","category":"autocad","shortcut":"TB","function":"Table — Insert data table"},
-  {"id":"ac-076","category":"autocad","shortcut":"TABLESTYLE","function":"Table Style settings"},
-  {"id":"ac-077","category":"autocad","shortcut":"H","function":"Hatch — Fill with pattern"},
-  {"id":"ac-078","category":"autocad","shortcut":"GRADIENT","function":"Gradient fill"},
-  {"id":"ac-079","category":"autocad","shortcut":"VS","function":"Visual Styles — Change style"},
-  {"id":"ac-080","category":"autocad","shortcut":"PLAN","function":"Plan View of current UCS"},
-  {"id":"ac-081","category":"autocad","shortcut":"VIEWRES","function":"View Resolution for curves"},
-  {"id":"ac-082","category":"autocad","shortcut":"3DO","function":"3D Orbit interactive view"},
-  {"id":"ac-083","category":"autocad","shortcut":"V","function":"Named Views — Save/restore"},
-  {"id":"ac-084","category":"autocad","shortcut":"F3","function":"Object Snap toggle on/off"},
-  {"id":"ac-085","category":"autocad","shortcut":"F7","function":"Grid display toggle"},
-  {"id":"ac-086","category":"autocad","shortcut":"F8","function":"Ortho Mode — H/V constrain"},
-  {"id":"ac-087","category":"autocad","shortcut":"F9","function":"Snap to grid points toggle"},
-  {"id":"ac-088","category":"autocad","shortcut":"F10","function":"Polar Tracking toggle"},
-  {"id":"ac-089","category":"autocad","shortcut":"F11","function":"Object Snap Tracking"},
-  {"id":"ac-090","category":"autocad","shortcut":"F12","function":"Dynamic Input at cursor"},
-  {"id":"ac-091","category":"autocad","shortcut":"F2","function":"Text Window — Command history"},
-  {"id":"ac-092","category":"autocad","shortcut":"F5","function":"Isoplane — Cycle iso planes"},
-  {"id":"ac-093","category":"autocad","shortcut":"OS","function":"Object Snap Settings dialog"},
-  {"id":"ac-094","category":"autocad","shortcut":"B","function":"Block — Create block definition"},
-  {"id":"ac-095","category":"autocad","shortcut":"I","function":"Insert — Insert block/drawing"},
-  {"id":"ac-096","category":"autocad","shortcut":"W","function":"Write Block to external file"},
-  {"id":"ac-097","category":"autocad","shortcut":"BEDIT","function":"Block Editor — Edit block"},
-  {"id":"ac-098","category":"autocad","shortcut":"BATTMAN","function":"Block Attribute Manager"},
-  {"id":"ac-099","category":"autocad","shortcut":"REFEDIT","function":"Reference Edit — Edit in-place"},
-  {"id":"ac-100","category":"autocad","shortcut":"XREF","function":"External References Manager"},
-  {"id":"ac-101","category":"autocad","shortcut":"XBIND","function":"Bind xref named objects"},
-  {"id":"ac-102","category":"autocad","shortcut":"QS","function":"Quick Select by property"},
-  {"id":"ac-103","category":"autocad","shortcut":"SELECTSIMILAR","function":"Select Similar objects"},
-  {"id":"ac-104","category":"autocad","shortcut":"FILTER","function":"Object Selection Filter"},
-  {"id":"ac-105","category":"autocad","shortcut":"Ctrl + A","function":"Select All objects"},
-  {"id":"ac-106","category":"autocad","shortcut":"Ctrl + Z","function":"Undo last action"},
-  {"id":"ac-107","category":"autocad","shortcut":"Ctrl + Y","function":"Redo last undone action"},
-  {"id":"ac-108","category":"autocad","shortcut":"Ctrl + S","function":"Save current drawing"},
-  {"id":"ac-109","category":"autocad","shortcut":"Ctrl + Shift + S","function":"Save As new name"},
-  {"id":"ac-110","category":"autocad","shortcut":"Ctrl + N","function":"New drawing file"},
-  {"id":"ac-111","category":"autocad","shortcut":"Ctrl + O","function":"Open existing drawing"},
-  {"id":"ac-112","category":"autocad","shortcut":"Ctrl + P","function":"Plot/Print drawing"},
-  {"id":"ac-113","category":"autocad","shortcut":"Ctrl + C","function":"Copy to Clipboard"},
-  {"id":"ac-114","category":"autocad","shortcut":"Ctrl + V","function":"Paste from Clipboard"},
-  {"id":"ac-115","category":"autocad","shortcut":"Ctrl + Shift + C","function":"Copy with Base Point"},
-  {"id":"ac-116","category":"autocad","shortcut":"Ctrl + Shift + V","function":"Paste as Block"},
-  {"id":"ac-117","category":"autocad","shortcut":"Ctrl + 1","function":"Properties Palette toggle"},
-  {"id":"ac-118","category":"autocad","shortcut":"Ctrl + 2","function":"DesignCenter palette"},
-  {"id":"ac-119","category":"autocad","shortcut":"Ctrl + 3","function":"Tool Palettes window"},
-  {"id":"ac-120","category":"autocad","shortcut":"Ctrl + 9","function":"Command Line toggle"},
-  {"id":"ac-121","category":"autocad","shortcut":"Ctrl + 0","function":"Clean Screen — Max area"},
-  {"id":"ac-122","category":"autocad","shortcut":"U","function":"Undo last command"},
-  {"id":"ac-123","category":"autocad","shortcut":"MA","function":"Match Properties between objects"},
-  {"id":"ac-124","category":"autocad","shortcut":"PR","function":"Properties command window"},
-  {"id":"ac-125","category":"autocad","shortcut":"CHPROP","function":"Change Properties dialog"},
-  {"id":"ac-126","category":"autocad","shortcut":"LI","function":"List — Display object data"},
-  {"id":"ac-127","category":"autocad","shortcut":"DI","function":"Distance between two points"},
-  {"id":"ac-128","category":"autocad","shortcut":"AA","function":"Area — Calculate region area"},
-  {"id":"ac-129","category":"autocad","shortcut":"ID","function":"ID Point — Show coordinates"},
-  {"id":"ac-130","category":"autocad","shortcut":"PURGE","function":"Purge unused named objects"},
-  {"id":"ac-131","category":"autocad","shortcut":"AUDIT","function":"Audit drawing integrity"},
-  {"id":"ac-132","category":"autocad","shortcut":"RECOVER","function":"Recover damaged drawing"},
-  {"id":"ac-133","category":"autocad","shortcut":"OVERKILL","function":"Remove duplicate geometry"},
-  {"id":"ac-134","category":"autocad","shortcut":"UCS","function":"User Coordinate System"},
-  {"id":"ac-135","category":"autocad","shortcut":"PUBLISH","function":"Publish to DWF/PDF"},
-  {"id":"ac-136","category":"autocad","shortcut":"EXPORTPDF","function":"Export drawing as PDF"},
-  {"id":"ac-137","category":"autocad","shortcut":"REVCLOUD","function":"Revision Cloud annotation"},
-  {"id":"ac-138","category":"autocad","shortcut":"WIPEOUT","function":"Wipeout — Mask objects"},
-  {"id":"ac-139","category":"autocad","shortcut":"REGION","function":"Region from closed objects"},
-  {"id":"ac-140","category":"autocad","shortcut":"BOUNDARY","function":"Boundary polyline/region"},
-  {"id":"ac-141","category":"autocad","shortcut":"GROUP","function":"Group — Named object group"},
-  {"id":"ac-142","category":"autocad","shortcut":"UNGROUP","function":"Ungroup — Disassociate"},
-  {"id":"ac-143","category":"autocad","shortcut":"DIVIDE","function":"Divide — Even spaced points"},
-  {"id":"ac-144","category":"autocad","shortcut":"MEASURE","function":"Measure — Interval points"},
-  {"id":"ac-145","category":"autocad","shortcut":"Esc","function":"Cancel current command"},
-  {"id":"ac-146","category":"autocad","shortcut":"Enter","function":"Repeat last command"},
-  {"id":"ac-147","category":"autocad","shortcut":"Space","function":"Execute/repeat command"}
+  {
+    "id": "ac-001",
+    "category": "autocad",
+    "shortcut": "L",
+    "function": "Line — Draw a straight line segment",
+    "description": "Press L + Enter to activate Line in AutoCAD."
+  },
+  {
+    "id": "ac-002",
+    "category": "autocad",
+    "shortcut": "PL",
+    "function": "Polyline — Draw connected lines and arcs",
+    "description": "Press PL + Enter to activate Polyline in AutoCAD."
+  },
+  {
+    "id": "ac-003",
+    "category": "autocad",
+    "shortcut": "C",
+    "function": "Circle — Draw a circle",
+    "description": "Press C + Enter to activate Circle in AutoCAD."
+  },
+  {
+    "id": "ac-004",
+    "category": "autocad",
+    "shortcut": "A",
+    "function": "Arc — Draw an arc segment",
+    "description": "Press A + Enter to activate Arc in AutoCAD."
+  },
+  {
+    "id": "ac-005",
+    "category": "autocad",
+    "shortcut": "REC",
+    "function": "Rectangle — Draw a rectangular polyline",
+    "description": "Press REC + Enter to activate Rectangle in AutoCAD."
+  },
+  {
+    "id": "ac-006",
+    "category": "autocad",
+    "shortcut": "EL",
+    "function": "Ellipse — Draw an ellipse",
+    "description": "Press EL + Enter to activate Ellipse in AutoCAD."
+  },
+  {
+    "id": "ac-007",
+    "category": "autocad",
+    "shortcut": "SPL",
+    "function": "Spline — Draw a smooth curve",
+    "description": "Press SPL + Enter to activate Spline in AutoCAD."
+  },
+  {
+    "id": "ac-008",
+    "category": "autocad",
+    "shortcut": "ML",
+    "function": "Multiline — Draw parallel lines",
+    "description": "Press ML + Enter to activate Multiline in AutoCAD."
+  },
+  {
+    "id": "ac-009",
+    "category": "autocad",
+    "shortcut": "RAY",
+    "function": "Ray — Semi-infinite line from a point",
+    "description": "Press RAY + Enter to activate Ray in AutoCAD."
+  },
+  {
+    "id": "ac-010",
+    "category": "autocad",
+    "shortcut": "XL",
+    "function": "Construction Line — Infinite line",
+    "description": "Press XL + Enter to activate Construction Line in AutoCAD."
+  },
+  {
+    "id": "ac-011",
+    "category": "autocad",
+    "shortcut": "POL",
+    "function": "Polygon — Regular polygon",
+    "description": "Press POL + Enter to activate Polygon in AutoCAD."
+  },
+  {
+    "id": "ac-012",
+    "category": "autocad",
+    "shortcut": "DO",
+    "function": "Donut — Filled circle or ring",
+    "description": "Press DO + Enter to activate Donut in AutoCAD."
+  },
+  {
+    "id": "ac-013",
+    "category": "autocad",
+    "shortcut": "HELIX",
+    "function": "Helix — 2D or 3D spiral",
+    "description": "Press HELIX + Enter to activate Helix in AutoCAD."
+  },
+  {
+    "id": "ac-014",
+    "category": "autocad",
+    "shortcut": "PO",
+    "function": "Point — Place a point object",
+    "description": "Press PO + Enter to activate Point in AutoCAD."
+  },
+  {
+    "id": "ac-015",
+    "category": "autocad",
+    "shortcut": "REV",
+    "function": "Revolve — 3D solid by revolving",
+    "description": "Press REV + Enter to activate Revolve in AutoCAD."
+  },
+  {
+    "id": "ac-016",
+    "category": "autocad",
+    "shortcut": "M",
+    "function": "Move — Relocate objects",
+    "description": "Press M + Enter to activate Move in AutoCAD."
+  },
+  {
+    "id": "ac-017",
+    "category": "autocad",
+    "shortcut": "CO",
+    "function": "Copy — Duplicate objects",
+    "description": "Press CO + Enter to activate Copy in AutoCAD."
+  },
+  {
+    "id": "ac-018",
+    "category": "autocad",
+    "shortcut": "RO",
+    "function": "Rotate — Rotate around base point",
+    "description": "Press RO + Enter to activate Rotate in AutoCAD."
+  },
+  {
+    "id": "ac-019",
+    "category": "autocad",
+    "shortcut": "SC",
+    "function": "Scale — Resize proportionally",
+    "description": "Press SC + Enter to activate Scale in AutoCAD."
+  },
+  {
+    "id": "ac-020",
+    "category": "autocad",
+    "shortcut": "MI",
+    "function": "Mirror — Create mirrored copy",
+    "description": "Press MI + Enter to activate Mirror in AutoCAD."
+  },
+  {
+    "id": "ac-021",
+    "category": "autocad",
+    "shortcut": "S",
+    "function": "Stretch — Stretch crossing objects",
+    "description": "Press S + Enter to activate Stretch in AutoCAD."
+  },
+  {
+    "id": "ac-022",
+    "category": "autocad",
+    "shortcut": "O",
+    "function": "Offset — Parallel copy at distance",
+    "description": "Press O + Enter to activate Offset in AutoCAD."
+  },
+  {
+    "id": "ac-023",
+    "category": "autocad",
+    "shortcut": "TR",
+    "function": "Trim — Remove at cutting edges",
+    "description": "Press TR + Enter to activate Trim in AutoCAD."
+  },
+  {
+    "id": "ac-024",
+    "category": "autocad",
+    "shortcut": "EX",
+    "function": "Extend — Extend to boundary",
+    "description": "Press EX + Enter to activate Extend in AutoCAD."
+  },
+  {
+    "id": "ac-025",
+    "category": "autocad",
+    "shortcut": "F",
+    "function": "Fillet — Round edges with arc",
+    "description": "Press F + Enter to activate Fillet in AutoCAD."
+  },
+  {
+    "id": "ac-026",
+    "category": "autocad",
+    "shortcut": "CHA",
+    "function": "Chamfer — Bevel edges",
+    "description": "Press CHA + Enter to activate Chamfer in AutoCAD."
+  },
+  {
+    "id": "ac-027",
+    "category": "autocad",
+    "shortcut": "BR",
+    "function": "Break — Break object at points",
+    "description": "Press BR + Enter to activate Break in AutoCAD."
+  },
+  {
+    "id": "ac-028",
+    "category": "autocad",
+    "shortcut": "J",
+    "function": "Join — Combine into one object",
+    "description": "Press J + Enter to activate Join in AutoCAD."
+  },
+  {
+    "id": "ac-029",
+    "category": "autocad",
+    "shortcut": "X",
+    "function": "Explode — Break compound object",
+    "description": "Press X + Enter to activate Explode in AutoCAD."
+  },
+  {
+    "id": "ac-030",
+    "category": "autocad",
+    "shortcut": "AR",
+    "function": "Array — Rectangular or polar pattern",
+    "description": "Press AR + Enter to activate Array in AutoCAD."
+  },
+  {
+    "id": "ac-031",
+    "category": "autocad",
+    "shortcut": "AL",
+    "function": "Align — Align objects in 2D/3D",
+    "description": "Press AL + Enter to activate Align in AutoCAD."
+  },
+  {
+    "id": "ac-032",
+    "category": "autocad",
+    "shortcut": "LEN",
+    "function": "Lengthen — Change object length",
+    "description": "Press LEN + Enter to activate Lengthen in AutoCAD."
+  },
+  {
+    "id": "ac-033",
+    "category": "autocad",
+    "shortcut": "E",
+    "function": "Erase — Delete selected objects",
+    "description": "Press E + Enter to activate Erase in AutoCAD."
+  },
+  {
+    "id": "ac-034",
+    "category": "autocad",
+    "shortcut": "PEDIT",
+    "function": "Polyline Edit — Modify polyline",
+    "description": "Press PEDIT + Enter to activate Polyline Edit in AutoCAD."
+  },
+  {
+    "id": "ac-035",
+    "category": "autocad",
+    "shortcut": "SPLINEDIT",
+    "function": "Spline Edit — Modify spline",
+    "description": "Press SPLINEDIT + Enter to activate Spline Edit in AutoCAD."
+  },
+  {
+    "id": "ac-036",
+    "category": "autocad",
+    "shortcut": "LA",
+    "function": "Layer Properties Manager",
+    "description": "Press LA + Enter to activate Layer Properties Manager in AutoCAD."
+  },
+  {
+    "id": "ac-037",
+    "category": "autocad",
+    "shortcut": "LAYISO",
+    "function": "Layer Isolate — Hide other layers",
+    "description": "Press LAYISO + Enter to activate Layer Isolate in AutoCAD."
+  },
+  {
+    "id": "ac-038",
+    "category": "autocad",
+    "shortcut": "LAYUNISO",
+    "function": "Layer Unisolate — Restore layers",
+    "description": "Press LAYUNISO + Enter to activate Layer Unisolate in AutoCAD."
+  },
+  {
+    "id": "ac-039",
+    "category": "autocad",
+    "shortcut": "LAYMCH",
+    "function": "Layer Match — Match target layer",
+    "description": "Press LAYMCH + Enter to activate Layer Match in AutoCAD."
+  },
+  {
+    "id": "ac-040",
+    "category": "autocad",
+    "shortcut": "LAYOFF",
+    "function": "Layer Off — Turn off layer",
+    "description": "Press LAYOFF + Enter to activate Layer Off in AutoCAD."
+  },
+  {
+    "id": "ac-041",
+    "category": "autocad",
+    "shortcut": "LAYON",
+    "function": "Layer On — Turn on all layers",
+    "description": "Press LAYON + Enter to activate Layer On in AutoCAD."
+  },
+  {
+    "id": "ac-042",
+    "category": "autocad",
+    "shortcut": "LAYFRZ",
+    "function": "Layer Freeze — Freeze layer",
+    "description": "Press LAYFRZ + Enter to activate Layer Freeze in AutoCAD."
+  },
+  {
+    "id": "ac-043",
+    "category": "autocad",
+    "shortcut": "LAYTHW",
+    "function": "Layer Thaw — Thaw all layers",
+    "description": "Press LAYTHW + Enter to activate Layer Thaw in AutoCAD."
+  },
+  {
+    "id": "ac-044",
+    "category": "autocad",
+    "shortcut": "LAYLCK",
+    "function": "Layer Lock — Prevent editing",
+    "description": "Press LAYLCK + Enter to activate Layer Lock in AutoCAD."
+  },
+  {
+    "id": "ac-045",
+    "category": "autocad",
+    "shortcut": "LAYULK",
+    "function": "Layer Unlock — Unlock layer",
+    "description": "Press LAYULK + Enter to activate Layer Unlock in AutoCAD."
+  },
+  {
+    "id": "ac-046",
+    "category": "autocad",
+    "shortcut": "LAYDEL",
+    "function": "Layer Delete — Delete layer",
+    "description": "Press LAYDEL + Enter to activate Layer Delete in AutoCAD."
+  },
+  {
+    "id": "ac-047",
+    "category": "autocad",
+    "shortcut": "DIM",
+    "function": "Dimension — Auto dimension",
+    "description": "Press DIM + Enter to activate Dimension in AutoCAD."
+  },
+  {
+    "id": "ac-048",
+    "category": "autocad",
+    "shortcut": "DIMLINEAR",
+    "function": "Linear Dimension",
+    "description": "Press DIMLINEAR + Enter to activate Linear Dimension in AutoCAD."
+  },
+  {
+    "id": "ac-049",
+    "category": "autocad",
+    "shortcut": "DIMALIGNED",
+    "function": "Aligned Dimension",
+    "description": "Press DIMALIGNED + Enter to activate Aligned Dimension in AutoCAD."
+  },
+  {
+    "id": "ac-050",
+    "category": "autocad",
+    "shortcut": "DIMRADIUS",
+    "function": "Radius Dimension",
+    "description": "Press DIMRADIUS + Enter to activate Radius Dimension in AutoCAD."
+  },
+  {
+    "id": "ac-051",
+    "category": "autocad",
+    "shortcut": "DIMDIAMETER",
+    "function": "Diameter Dimension",
+    "description": "Press DIMDIAMETER + Enter to activate Diameter Dimension in AutoCAD."
+  },
+  {
+    "id": "ac-052",
+    "category": "autocad",
+    "shortcut": "DIMANGULAR",
+    "function": "Angular Dimension",
+    "description": "Press DIMANGULAR + Enter to activate Angular Dimension in AutoCAD."
+  },
+  {
+    "id": "ac-053",
+    "category": "autocad",
+    "shortcut": "DIMBASELINE",
+    "function": "Baseline Dimension",
+    "description": "Press DIMBASELINE + Enter to activate Baseline Dimension in AutoCAD."
+  },
+  {
+    "id": "ac-054",
+    "category": "autocad",
+    "shortcut": "DIMCONTINUE",
+    "function": "Continue Dimension — Chain dims",
+    "description": "Press DIMCONTINUE + Enter to activate Continue Dimension in AutoCAD."
+  },
+  {
+    "id": "ac-055",
+    "category": "autocad",
+    "shortcut": "DIMCENTER",
+    "function": "Center Mark on circle/arc",
+    "description": "Press DIMCENTER + Enter to activate Center Mark on circle/arc in AutoCAD."
+  },
+  {
+    "id": "ac-056",
+    "category": "autocad",
+    "shortcut": "DIMSTYLE",
+    "function": "Dimension Style Manager",
+    "description": "Press DIMSTYLE + Enter to activate Dimension Style Manager in AutoCAD."
+  },
+  {
+    "id": "ac-057",
+    "category": "autocad",
+    "shortcut": "DIMARC",
+    "function": "Arc Length Dimension",
+    "description": "Press DIMARC + Enter to activate Arc Length Dimension in AutoCAD."
+  },
+  {
+    "id": "ac-058",
+    "category": "autocad",
+    "shortcut": "DIMORDINATE",
+    "function": "Ordinate Dimension",
+    "description": "Press DIMORDINATE + Enter to activate Ordinate Dimension in AutoCAD."
+  },
+  {
+    "id": "ac-059",
+    "category": "autocad",
+    "shortcut": "P",
+    "function": "Pan — Shift view without zoom",
+    "description": "Press P + Enter to activate Pan in AutoCAD."
+  },
+  {
+    "id": "ac-060",
+    "category": "autocad",
+    "shortcut": "Z",
+    "function": "Zoom — Zoom in/out",
+    "description": "Press Z + Enter to activate Zoom in AutoCAD."
+  },
+  {
+    "id": "ac-061",
+    "category": "autocad",
+    "shortcut": "Z + E",
+    "function": "Zoom Extents — Fit all objects",
+    "description": "Press Z + E to activate Zoom Extents in AutoCAD."
+  },
+  {
+    "id": "ac-062",
+    "category": "autocad",
+    "shortcut": "Z + A",
+    "function": "Zoom All — Full drawing limits",
+    "description": "Press Z + A to activate Zoom All in AutoCAD."
+  },
+  {
+    "id": "ac-063",
+    "category": "autocad",
+    "shortcut": "Z + W",
+    "function": "Zoom Window — Zoom to area",
+    "description": "Press Z + W to activate Zoom Window in AutoCAD."
+  },
+  {
+    "id": "ac-064",
+    "category": "autocad",
+    "shortcut": "Z + P",
+    "function": "Zoom Previous — Last view",
+    "description": "Press Z + P to activate Zoom Previous in AutoCAD."
+  },
+  {
+    "id": "ac-065",
+    "category": "autocad",
+    "shortcut": "ORBIT",
+    "function": "3D Orbit — Rotate 3D view",
+    "description": "Press ORBIT + Enter to activate 3D Orbit in AutoCAD."
+  },
+  {
+    "id": "ac-066",
+    "category": "autocad",
+    "shortcut": "RE",
+    "function": "Regen — Regenerate display",
+    "description": "Press RE + Enter to activate Regen in AutoCAD."
+  },
+  {
+    "id": "ac-067",
+    "category": "autocad",
+    "shortcut": "REA",
+    "function": "Regen All viewports",
+    "description": "Press REA + Enter to activate Regen All viewports in AutoCAD."
+  },
+  {
+    "id": "ac-068",
+    "category": "autocad",
+    "shortcut": "VPORTS",
+    "function": "Viewports — Manage viewports",
+    "description": "Press VPORTS + Enter to activate Viewports in AutoCAD."
+  },
+  {
+    "id": "ac-069",
+    "category": "autocad",
+    "shortcut": "T",
+    "function": "Multiline Text editor",
+    "description": "Press T + Enter to activate Multiline Text editor in AutoCAD."
+  },
+  {
+    "id": "ac-070",
+    "category": "autocad",
+    "shortcut": "DT",
+    "function": "Single Line Text",
+    "description": "Press DT + Enter to activate Single Line Text in AutoCAD."
+  },
+  {
+    "id": "ac-071",
+    "category": "autocad",
+    "shortcut": "MT",
+    "function": "Mtext — Multiline text alias",
+    "description": "Press MT + Enter to activate Mtext in AutoCAD."
+  },
+  {
+    "id": "ac-072",
+    "category": "autocad",
+    "shortcut": "QLEADER",
+    "function": "Quick Leader annotation",
+    "description": "Press QLEADER + Enter to activate Quick Leader annotation in AutoCAD."
+  },
+  {
+    "id": "ac-073",
+    "category": "autocad",
+    "shortcut": "MLD",
+    "function": "Multileader annotation",
+    "description": "Press MLD + Enter to activate Multileader annotation in AutoCAD."
+  },
+  {
+    "id": "ac-074",
+    "category": "autocad",
+    "shortcut": "MLEADERSTYLE",
+    "function": "Multileader Style settings",
+    "description": "Press MLEADERSTYLE + Enter to activate Multileader Style settings in AutoCAD."
+  },
+  {
+    "id": "ac-075",
+    "category": "autocad",
+    "shortcut": "TB",
+    "function": "Table — Insert data table",
+    "description": "Press TB + Enter to activate Table in AutoCAD."
+  },
+  {
+    "id": "ac-076",
+    "category": "autocad",
+    "shortcut": "TABLESTYLE",
+    "function": "Table Style settings",
+    "description": "Press TABLESTYLE + Enter to activate Table Style settings in AutoCAD."
+  },
+  {
+    "id": "ac-077",
+    "category": "autocad",
+    "shortcut": "H",
+    "function": "Hatch — Fill with pattern",
+    "description": "Press H + Enter to activate Hatch in AutoCAD."
+  },
+  {
+    "id": "ac-078",
+    "category": "autocad",
+    "shortcut": "GRADIENT",
+    "function": "Gradient fill",
+    "description": "Press GRADIENT + Enter to activate Gradient fill in AutoCAD."
+  },
+  {
+    "id": "ac-079",
+    "category": "autocad",
+    "shortcut": "VS",
+    "function": "Visual Styles — Change style",
+    "description": "Press VS + Enter to activate Visual Styles in AutoCAD."
+  },
+  {
+    "id": "ac-080",
+    "category": "autocad",
+    "shortcut": "PLAN",
+    "function": "Plan View of current UCS",
+    "description": "Press PLAN + Enter to activate Plan View of current UCS in AutoCAD."
+  },
+  {
+    "id": "ac-081",
+    "category": "autocad",
+    "shortcut": "VIEWRES",
+    "function": "View Resolution for curves",
+    "description": "Press VIEWRES + Enter to activate View Resolution for curves in AutoCAD."
+  },
+  {
+    "id": "ac-082",
+    "category": "autocad",
+    "shortcut": "3DO",
+    "function": "3D Orbit interactive view",
+    "description": "Press 3DO + Enter to activate 3D Orbit interactive view in AutoCAD."
+  },
+  {
+    "id": "ac-083",
+    "category": "autocad",
+    "shortcut": "V",
+    "function": "Named Views — Save/restore",
+    "description": "Press V + Enter to activate Named Views in AutoCAD."
+  },
+  {
+    "id": "ac-084",
+    "category": "autocad",
+    "shortcut": "F3",
+    "function": "Object Snap toggle on/off",
+    "description": "Press F3 + Enter to activate Object Snap toggle on/off in AutoCAD."
+  },
+  {
+    "id": "ac-085",
+    "category": "autocad",
+    "shortcut": "F7",
+    "function": "Grid display toggle",
+    "description": "Press F7 + Enter to activate Grid display toggle in AutoCAD."
+  },
+  {
+    "id": "ac-086",
+    "category": "autocad",
+    "shortcut": "F8",
+    "function": "Ortho Mode — H/V constrain",
+    "description": "Press F8 + Enter to activate Ortho Mode in AutoCAD."
+  },
+  {
+    "id": "ac-087",
+    "category": "autocad",
+    "shortcut": "F9",
+    "function": "Snap to grid points toggle",
+    "description": "Press F9 + Enter to activate Snap to grid points toggle in AutoCAD."
+  },
+  {
+    "id": "ac-088",
+    "category": "autocad",
+    "shortcut": "F10",
+    "function": "Polar Tracking toggle",
+    "description": "Press F10 + Enter to activate Polar Tracking toggle in AutoCAD."
+  },
+  {
+    "id": "ac-089",
+    "category": "autocad",
+    "shortcut": "F11",
+    "function": "Object Snap Tracking",
+    "description": "Press F11 + Enter to activate Object Snap Tracking in AutoCAD."
+  },
+  {
+    "id": "ac-090",
+    "category": "autocad",
+    "shortcut": "F12",
+    "function": "Dynamic Input at cursor",
+    "description": "Press F12 + Enter to activate Dynamic Input at cursor in AutoCAD."
+  },
+  {
+    "id": "ac-091",
+    "category": "autocad",
+    "shortcut": "F2",
+    "function": "Text Window — Command history",
+    "description": "Press F2 + Enter to activate Text Window in AutoCAD."
+  },
+  {
+    "id": "ac-092",
+    "category": "autocad",
+    "shortcut": "F5",
+    "function": "Isoplane — Cycle iso planes",
+    "description": "Press F5 + Enter to activate Isoplane in AutoCAD."
+  },
+  {
+    "id": "ac-093",
+    "category": "autocad",
+    "shortcut": "OS",
+    "function": "Object Snap Settings dialog",
+    "description": "Press OS + Enter to activate Object Snap Settings dialog in AutoCAD."
+  },
+  {
+    "id": "ac-094",
+    "category": "autocad",
+    "shortcut": "B",
+    "function": "Block — Create block definition",
+    "description": "Press B + Enter to activate Block in AutoCAD."
+  },
+  {
+    "id": "ac-095",
+    "category": "autocad",
+    "shortcut": "I",
+    "function": "Insert — Insert block/drawing",
+    "description": "Press I + Enter to activate Insert in AutoCAD."
+  },
+  {
+    "id": "ac-096",
+    "category": "autocad",
+    "shortcut": "W",
+    "function": "Write Block to external file",
+    "description": "Press W + Enter to activate Write Block to external file in AutoCAD."
+  },
+  {
+    "id": "ac-097",
+    "category": "autocad",
+    "shortcut": "BEDIT",
+    "function": "Block Editor — Edit block",
+    "description": "Press BEDIT + Enter to activate Block Editor in AutoCAD."
+  },
+  {
+    "id": "ac-098",
+    "category": "autocad",
+    "shortcut": "BATTMAN",
+    "function": "Block Attribute Manager",
+    "description": "Press BATTMAN + Enter to activate Block Attribute Manager in AutoCAD."
+  },
+  {
+    "id": "ac-099",
+    "category": "autocad",
+    "shortcut": "REFEDIT",
+    "function": "Reference Edit — Edit in-place",
+    "description": "Press REFEDIT + Enter to activate Reference Edit in AutoCAD."
+  },
+  {
+    "id": "ac-100",
+    "category": "autocad",
+    "shortcut": "XREF",
+    "function": "External References Manager",
+    "description": "Press XREF + Enter to activate External References Manager in AutoCAD."
+  },
+  {
+    "id": "ac-101",
+    "category": "autocad",
+    "shortcut": "XBIND",
+    "function": "Bind xref named objects",
+    "description": "Press XBIND + Enter to activate Bind xref named objects in AutoCAD."
+  },
+  {
+    "id": "ac-102",
+    "category": "autocad",
+    "shortcut": "QS",
+    "function": "Quick Select by property",
+    "description": "Press QS + Enter to activate Quick Select by property in AutoCAD."
+  },
+  {
+    "id": "ac-103",
+    "category": "autocad",
+    "shortcut": "SELECTSIMILAR",
+    "function": "Select Similar objects",
+    "description": "Press SELECTSIMILAR + Enter to activate Select Similar objects in AutoCAD."
+  },
+  {
+    "id": "ac-104",
+    "category": "autocad",
+    "shortcut": "FILTER",
+    "function": "Object Selection Filter",
+    "description": "Press FILTER + Enter to activate Object Selection Filter in AutoCAD."
+  },
+  {
+    "id": "ac-105",
+    "category": "autocad",
+    "shortcut": "Ctrl + A",
+    "function": "Select All objects",
+    "description": "Press Ctrl + A to activate Select All objects in AutoCAD."
+  },
+  {
+    "id": "ac-106",
+    "category": "autocad",
+    "shortcut": "Ctrl + Z",
+    "function": "Undo last action",
+    "description": "Press Ctrl + Z to activate Undo last action in AutoCAD."
+  },
+  {
+    "id": "ac-107",
+    "category": "autocad",
+    "shortcut": "Ctrl + Y",
+    "function": "Redo last undone action",
+    "description": "Press Ctrl + Y to activate Redo last undone action in AutoCAD."
+  },
+  {
+    "id": "ac-108",
+    "category": "autocad",
+    "shortcut": "Ctrl + S",
+    "function": "Save current drawing",
+    "description": "Press Ctrl + S to activate Save current drawing in AutoCAD."
+  },
+  {
+    "id": "ac-109",
+    "category": "autocad",
+    "shortcut": "Ctrl + Shift + S",
+    "function": "Save As new name",
+    "description": "Press Ctrl + Shift + S to activate Save As new name in AutoCAD."
+  },
+  {
+    "id": "ac-110",
+    "category": "autocad",
+    "shortcut": "Ctrl + N",
+    "function": "New drawing file",
+    "description": "Press Ctrl + N to activate New drawing file in AutoCAD."
+  },
+  {
+    "id": "ac-111",
+    "category": "autocad",
+    "shortcut": "Ctrl + O",
+    "function": "Open existing drawing",
+    "description": "Press Ctrl + O to activate Open existing drawing in AutoCAD."
+  },
+  {
+    "id": "ac-112",
+    "category": "autocad",
+    "shortcut": "Ctrl + P",
+    "function": "Plot/Print drawing",
+    "description": "Press Ctrl + P to activate Plot/Print drawing in AutoCAD."
+  },
+  {
+    "id": "ac-113",
+    "category": "autocad",
+    "shortcut": "Ctrl + C",
+    "function": "Copy to Clipboard",
+    "description": "Press Ctrl + C to activate Copy to Clipboard in AutoCAD."
+  },
+  {
+    "id": "ac-114",
+    "category": "autocad",
+    "shortcut": "Ctrl + V",
+    "function": "Paste from Clipboard",
+    "description": "Press Ctrl + V to activate Paste from Clipboard in AutoCAD."
+  },
+  {
+    "id": "ac-115",
+    "category": "autocad",
+    "shortcut": "Ctrl + Shift + C",
+    "function": "Copy with Base Point",
+    "description": "Press Ctrl + Shift + C to activate Copy with Base Point in AutoCAD."
+  },
+  {
+    "id": "ac-116",
+    "category": "autocad",
+    "shortcut": "Ctrl + Shift + V",
+    "function": "Paste as Block",
+    "description": "Press Ctrl + Shift + V to activate Paste as Block in AutoCAD."
+  },
+  {
+    "id": "ac-117",
+    "category": "autocad",
+    "shortcut": "Ctrl + 1",
+    "function": "Properties Palette toggle",
+    "description": "Press Ctrl + 1 to activate Properties Palette toggle in AutoCAD."
+  },
+  {
+    "id": "ac-118",
+    "category": "autocad",
+    "shortcut": "Ctrl + 2",
+    "function": "DesignCenter palette",
+    "description": "Press Ctrl + 2 to activate DesignCenter palette in AutoCAD."
+  },
+  {
+    "id": "ac-119",
+    "category": "autocad",
+    "shortcut": "Ctrl + 3",
+    "function": "Tool Palettes window",
+    "description": "Press Ctrl + 3 to activate Tool Palettes window in AutoCAD."
+  },
+  {
+    "id": "ac-120",
+    "category": "autocad",
+    "shortcut": "Ctrl + 9",
+    "function": "Command Line toggle",
+    "description": "Press Ctrl + 9 to activate Command Line toggle in AutoCAD."
+  },
+  {
+    "id": "ac-121",
+    "category": "autocad",
+    "shortcut": "Ctrl + 0",
+    "function": "Clean Screen — Max area",
+    "description": "Press Ctrl + 0 to activate Clean Screen in AutoCAD."
+  },
+  {
+    "id": "ac-122",
+    "category": "autocad",
+    "shortcut": "U",
+    "function": "Undo last command",
+    "description": "Press U + Enter to activate Undo last command in AutoCAD."
+  },
+  {
+    "id": "ac-123",
+    "category": "autocad",
+    "shortcut": "MA",
+    "function": "Match Properties between objects",
+    "description": "Press MA + Enter to activate Match Properties between objects in AutoCAD."
+  },
+  {
+    "id": "ac-124",
+    "category": "autocad",
+    "shortcut": "PR",
+    "function": "Properties command window",
+    "description": "Press PR + Enter to activate Properties command window in AutoCAD."
+  },
+  {
+    "id": "ac-125",
+    "category": "autocad",
+    "shortcut": "CHPROP",
+    "function": "Change Properties dialog",
+    "description": "Press CHPROP + Enter to activate Change Properties dialog in AutoCAD."
+  },
+  {
+    "id": "ac-126",
+    "category": "autocad",
+    "shortcut": "LI",
+    "function": "List — Display object data",
+    "description": "Press LI + Enter to activate List in AutoCAD."
+  },
+  {
+    "id": "ac-127",
+    "category": "autocad",
+    "shortcut": "DI",
+    "function": "Distance between two points",
+    "description": "Press DI + Enter to activate Distance between two points in AutoCAD."
+  },
+  {
+    "id": "ac-128",
+    "category": "autocad",
+    "shortcut": "AA",
+    "function": "Area — Calculate region area",
+    "description": "Press AA + Enter to activate Area in AutoCAD."
+  },
+  {
+    "id": "ac-129",
+    "category": "autocad",
+    "shortcut": "ID",
+    "function": "ID Point — Show coordinates",
+    "description": "Press ID + Enter to activate ID Point in AutoCAD."
+  },
+  {
+    "id": "ac-130",
+    "category": "autocad",
+    "shortcut": "PURGE",
+    "function": "Purge unused named objects",
+    "description": "Press PURGE + Enter to activate Purge unused named objects in AutoCAD."
+  },
+  {
+    "id": "ac-131",
+    "category": "autocad",
+    "shortcut": "AUDIT",
+    "function": "Audit drawing integrity",
+    "description": "Press AUDIT + Enter to activate Audit drawing integrity in AutoCAD."
+  },
+  {
+    "id": "ac-132",
+    "category": "autocad",
+    "shortcut": "RECOVER",
+    "function": "Recover damaged drawing",
+    "description": "Press RECOVER + Enter to activate Recover damaged drawing in AutoCAD."
+  },
+  {
+    "id": "ac-133",
+    "category": "autocad",
+    "shortcut": "OVERKILL",
+    "function": "Remove duplicate geometry",
+    "description": "Press OVERKILL + Enter to activate Remove duplicate geometry in AutoCAD."
+  },
+  {
+    "id": "ac-134",
+    "category": "autocad",
+    "shortcut": "UCS",
+    "function": "User Coordinate System",
+    "description": "Press UCS + Enter to activate User Coordinate System in AutoCAD."
+  },
+  {
+    "id": "ac-135",
+    "category": "autocad",
+    "shortcut": "PUBLISH",
+    "function": "Publish to DWF/PDF",
+    "description": "Press PUBLISH + Enter to activate Publish to DWF/PDF in AutoCAD."
+  },
+  {
+    "id": "ac-136",
+    "category": "autocad",
+    "shortcut": "EXPORTPDF",
+    "function": "Export drawing as PDF",
+    "description": "Press EXPORTPDF + Enter to activate Export drawing as PDF in AutoCAD."
+  },
+  {
+    "id": "ac-137",
+    "category": "autocad",
+    "shortcut": "REVCLOUD",
+    "function": "Revision Cloud annotation",
+    "description": "Press REVCLOUD + Enter to activate Revision Cloud annotation in AutoCAD."
+  },
+  {
+    "id": "ac-138",
+    "category": "autocad",
+    "shortcut": "WIPEOUT",
+    "function": "Wipeout — Mask objects",
+    "description": "Press WIPEOUT + Enter to activate Wipeout in AutoCAD."
+  },
+  {
+    "id": "ac-139",
+    "category": "autocad",
+    "shortcut": "REGION",
+    "function": "Region from closed objects",
+    "description": "Press REGION + Enter to activate Region from closed objects in AutoCAD."
+  },
+  {
+    "id": "ac-140",
+    "category": "autocad",
+    "shortcut": "BOUNDARY",
+    "function": "Boundary polyline/region",
+    "description": "Press BOUNDARY + Enter to activate Boundary polyline/region in AutoCAD."
+  },
+  {
+    "id": "ac-141",
+    "category": "autocad",
+    "shortcut": "GROUP",
+    "function": "Group — Named object group",
+    "description": "Press GROUP + Enter to activate Group in AutoCAD."
+  },
+  {
+    "id": "ac-142",
+    "category": "autocad",
+    "shortcut": "UNGROUP",
+    "function": "Ungroup — Disassociate",
+    "description": "Press UNGROUP + Enter to activate Ungroup in AutoCAD."
+  },
+  {
+    "id": "ac-143",
+    "category": "autocad",
+    "shortcut": "DIVIDE",
+    "function": "Divide — Even spaced points",
+    "description": "Press DIVIDE + Enter to activate Divide in AutoCAD."
+  },
+  {
+    "id": "ac-144",
+    "category": "autocad",
+    "shortcut": "MEASURE",
+    "function": "Measure — Interval points",
+    "description": "Press MEASURE + Enter to activate Measure in AutoCAD."
+  },
+  {
+    "id": "ac-145",
+    "category": "autocad",
+    "shortcut": "Esc",
+    "function": "Cancel current command",
+    "description": "Press Esc + Enter to activate Cancel current command in AutoCAD."
+  },
+  {
+    "id": "ac-146",
+    "category": "autocad",
+    "shortcut": "Enter",
+    "function": "Repeat last command",
+    "description": "Press Enter + Enter to activate Repeat last command in AutoCAD."
+  },
+  {
+    "id": "ac-147",
+    "category": "autocad",
+    "shortcut": "Space",
+    "function": "Execute/repeat command",
+    "description": "Press Space + Enter to activate Execute/repeat command in AutoCAD."
+  },
+  {
+    "id": "ac-148",
+    "shortcut": "TXTEXP",
+    "function": "Text Explode — Convert text to geometry",
+    "description": "Press TXTEXP + Enter to explode text objects into individual geometric entities.",
+    "category": "autocad"
+  },
+  {
+    "id": "ac-149",
+    "shortcut": "NCOPY",
+    "function": "Nested Copy — Copy from xref/block",
+    "description": "Press NCOPY + Enter to copy objects nested within blocks or xrefs.",
+    "category": "autocad"
+  },
+  {
+    "id": "ac-150",
+    "shortcut": "OOPS",
+    "function": "Oops — Restore last erased",
+    "description": "Press OOPS + Enter to restore the last erased object even after other commands.",
+    "category": "autocad"
+  },
+  {
+    "id": "ac-151",
+    "shortcut": "QDIM",
+    "function": "Quick Dimension — Auto dimensions",
+    "description": "Press QDIM + Enter to create multiple dimensions automatically at once.",
+    "category": "autocad"
+  },
+  {
+    "id": "ac-152",
+    "shortcut": "DIMSPACE",
+    "function": "Dimension Space — Even spacing",
+    "description": "Press DIMSPACE + Enter to evenly space parallel dimensions.",
+    "category": "autocad"
+  },
+  {
+    "id": "ac-153",
+    "shortcut": "DIMBREAK",
+    "function": "Dimension Break — Break dim lines",
+    "description": "Press DIMBREAK + Enter to break dimension lines where they cross objects.",
+    "category": "autocad"
+  },
+  {
+    "id": "ac-154",
+    "shortcut": "LEADER",
+    "function": "Leader — Draw leader annotation",
+    "description": "Press LEADER + Enter to create a leader line with annotation text.",
+    "category": "autocad"
+  },
+  {
+    "id": "ac-155",
+    "shortcut": "TOL",
+    "function": "Tolerance — Geometric tolerance",
+    "description": "Press TOL + Enter to insert geometric dimensioning and tolerancing symbols.",
+    "category": "autocad"
+  },
+  {
+    "id": "ac-156",
+    "shortcut": "MSPACE",
+    "function": "Model Space — Switch to model",
+    "description": "Press MSPACE + Enter to switch from paper space to model space in a viewport.",
+    "category": "autocad"
+  },
+  {
+    "id": "ac-157",
+    "shortcut": "PSPACE",
+    "function": "Paper Space — Switch to layout",
+    "description": "Press PSPACE + Enter to switch from model space to paper space.",
+    "category": "autocad"
+  },
+  {
+    "id": "ac-158",
+    "shortcut": "MVSETUP",
+    "function": "MV Setup — Configure viewports",
+    "description": "Press MVSETUP + Enter to set up and align model space viewports in layouts.",
+    "category": "autocad"
+  },
+  {
+    "id": "ac-159",
+    "shortcut": "PAGESETUP",
+    "function": "Page Setup Manager",
+    "description": "Press PAGESETUP + Enter to configure page layout settings for plotting.",
+    "category": "autocad"
+  },
+  {
+    "id": "ac-160",
+    "shortcut": "PLOT",
+    "function": "Plot — Send to printer/PDF",
+    "description": "Press PLOT + Enter to open the Plot dialog for printing or PDF export.",
+    "category": "autocad"
+  },
+  {
+    "id": "ac-161",
+    "shortcut": "PLOTTERMANAGER",
+    "function": "Plotter Manager — Configure plotters",
+    "description": "Press PLOTTERMANAGER + Enter to manage plotter configurations.",
+    "category": "autocad"
+  },
+  {
+    "id": "ac-162",
+    "shortcut": "RENDER",
+    "function": "Render — Generate 3D render",
+    "description": "Press RENDER + Enter to generate a photorealistic rendering of a 3D model.",
+    "category": "autocad"
+  },
+  {
+    "id": "ac-163",
+    "shortcut": "MAT",
+    "function": "Materials — Assign materials",
+    "description": "Press MAT + Enter to open the Materials Browser for assigning materials.",
+    "category": "autocad"
+  },
+  {
+    "id": "ac-164",
+    "shortcut": "LIGHT",
+    "function": "Light — Place light sources",
+    "description": "Press LIGHT + Enter to add point, spot, or distant lights to a 3D scene.",
+    "category": "autocad"
+  },
+  {
+    "id": "ac-165",
+    "shortcut": "SUN",
+    "function": "Sun Properties — Sun lighting",
+    "description": "Press SUN + Enter to configure sun angle and sky background for rendering.",
+    "category": "autocad"
+  },
+  {
+    "id": "ac-166",
+    "shortcut": "CAMERA",
+    "function": "Camera — Create named camera",
+    "description": "Press CAMERA + Enter to place a camera for a specific 3D view.",
+    "category": "autocad"
+  },
+  {
+    "id": "ac-167",
+    "shortcut": "BOX",
+    "function": "Box — 3D solid box",
+    "description": "Press BOX + Enter to create a 3D solid box primitive.",
+    "category": "autocad"
+  },
+  {
+    "id": "ac-168",
+    "shortcut": "SPHERE",
+    "function": "Sphere — 3D solid sphere",
+    "description": "Press SPHERE + Enter to create a 3D solid sphere primitive.",
+    "category": "autocad"
+  },
+  {
+    "id": "ac-169",
+    "shortcut": "CYL",
+    "function": "Cylinder — 3D solid cylinder",
+    "description": "Press CYL + Enter to create a 3D solid cylinder primitive.",
+    "category": "autocad"
+  },
+  {
+    "id": "ac-170",
+    "shortcut": "CONE",
+    "function": "Cone — 3D solid cone",
+    "description": "Press CONE + Enter to create a 3D solid cone primitive.",
+    "category": "autocad"
+  },
+  {
+    "id": "ac-171",
+    "shortcut": "WEDGE",
+    "function": "Wedge — 3D solid wedge",
+    "description": "Press WEDGE + Enter to create a 3D solid wedge primitive.",
+    "category": "autocad"
+  },
+  {
+    "id": "ac-172",
+    "shortcut": "TORUS",
+    "function": "Torus — 3D solid torus",
+    "description": "Press TORUS + Enter to create a 3D solid torus (donut) primitive.",
+    "category": "autocad"
+  },
+  {
+    "id": "ac-173",
+    "shortcut": "PYRAMID",
+    "function": "Pyramid — 3D solid pyramid",
+    "description": "Press PYRAMID + Enter to create a 3D solid pyramid with a polygon base.",
+    "category": "autocad"
+  },
+  {
+    "id": "ac-174",
+    "shortcut": "EXT",
+    "function": "Extrude — 3D from 2D profile",
+    "description": "Press EXT + Enter to create a 3D solid by extruding a 2D object.",
+    "category": "autocad"
+  },
+  {
+    "id": "ac-175",
+    "shortcut": "LOFT",
+    "function": "Loft — 3D from cross sections",
+    "description": "Press LOFT + Enter to create a 3D solid through a series of cross-section curves.",
+    "category": "autocad"
+  },
+  {
+    "id": "ac-176",
+    "shortcut": "SWEEP",
+    "function": "Sweep — 3D along path",
+    "description": "Press SWEEP + Enter to create a 3D solid by sweeping a profile along a path.",
+    "category": "autocad"
+  },
+  {
+    "id": "ac-177",
+    "shortcut": "PRESSPULL",
+    "function": "Press/Pull — Quick extrude",
+    "description": "Press PRESSPULL + Enter to push or pull bounded areas to create 3D geometry.",
+    "category": "autocad"
+  },
+  {
+    "id": "ac-178",
+    "shortcut": "UNION",
+    "function": "Union — Combine 3D solids",
+    "description": "Press UNION + Enter to combine two or more 3D solids into one.",
+    "category": "autocad"
+  },
+  {
+    "id": "ac-179",
+    "shortcut": "SUBTRACT",
+    "function": "Subtract — Remove 3D solid",
+    "description": "Press SUBTRACT + Enter to remove one 3D solid volume from another.",
+    "category": "autocad"
+  },
+  {
+    "id": "ac-180",
+    "shortcut": "INTERSECT",
+    "function": "Intersect — Common volume",
+    "description": "Press INTERSECT + Enter to create a solid from the overlapping volume of two solids.",
+    "category": "autocad"
+  },
+  {
+    "id": "ac-181",
+    "shortcut": "SLICE",
+    "function": "Slice — Cut 3D solid",
+    "description": "Press SLICE + Enter to cut a 3D solid along a specified plane.",
+    "category": "autocad"
+  },
+  {
+    "id": "ac-182",
+    "shortcut": "SECTION",
+    "function": "Section — Cross-section region",
+    "description": "Press SECTION + Enter to create a 2D region from a cross-section of a 3D solid.",
+    "category": "autocad"
+  },
+  {
+    "id": "ac-183",
+    "shortcut": "INTERFERE",
+    "function": "Interference — Check overlap",
+    "description": "Press INTERFERE + Enter to check for overlapping volumes between 3D solids.",
+    "category": "autocad"
+  },
+  {
+    "id": "ac-184",
+    "shortcut": "SOLIDEDIT",
+    "function": "Solid Edit — Modify 3D faces",
+    "description": "Press SOLIDEDIT + Enter to edit faces, edges, and bodies of 3D solids.",
+    "category": "autocad"
+  },
+  {
+    "id": "ac-185",
+    "shortcut": "FLATSHOT",
+    "function": "Flatshot — 2D from 3D view",
+    "description": "Press FLATSHOT + Enter to create a 2D representation of a 3D model.",
+    "category": "autocad"
+  },
+  {
+    "id": "ac-186",
+    "shortcut": "CONVTOSOLID",
+    "function": "Convert to Solid",
+    "description": "Press CONVTOSOLID + Enter to convert eligible objects to 3D solids.",
+    "category": "autocad"
+  },
+  {
+    "id": "ac-187",
+    "shortcut": "CONVTOSURFACE",
+    "function": "Convert to Surface",
+    "description": "Press CONVTOSURFACE + Enter to convert eligible objects to surfaces.",
+    "category": "autocad"
+  },
+  {
+    "id": "ac-188",
+    "shortcut": "MESH",
+    "function": "Mesh — Create mesh primitive",
+    "description": "Press MESH + Enter to create a 3D mesh primitive for organic modeling.",
+    "category": "autocad"
+  },
+  {
+    "id": "ac-189",
+    "shortcut": "SMOOTHMESHCONVERT",
+    "function": "Smooth Mesh Convert",
+    "description": "Press SMOOTHMESHCONVERT + Enter to convert mesh objects to smooth solids.",
+    "category": "autocad"
+  },
+  {
+    "id": "ac-190",
+    "shortcut": "XLINE",
+    "function": "Construction Line — Infinite line",
+    "description": "Press XLINE + Enter to draw an infinite construction line through two points.",
+    "category": "autocad"
+  },
+  {
+    "id": "ac-191",
+    "shortcut": "BHATCH",
+    "function": "Batch Hatch — Boundary hatch",
+    "description": "Press BHATCH + Enter to fill an enclosed area with a hatch pattern.",
+    "category": "autocad"
+  },
+  {
+    "id": "ac-192",
+    "shortcut": "DDEDIT",
+    "function": "Edit Text — Modify text content",
+    "description": "Press DDEDIT + Enter to edit the content of text and dimension text.",
+    "category": "autocad"
+  },
+  {
+    "id": "ac-193",
+    "shortcut": "STYLE",
+    "function": "Text Style — Manage text styles",
+    "description": "Press STYLE + Enter to create and modify named text styles.",
+    "category": "autocad"
+  },
+  {
+    "id": "ac-194",
+    "shortcut": "LINETYPE",
+    "function": "Linetype Manager",
+    "description": "Press LINETYPE + Enter to load, set, and manage linetypes.",
+    "category": "autocad"
+  },
+  {
+    "id": "ac-195",
+    "shortcut": "LWEIGHT",
+    "function": "Lineweight Settings",
+    "description": "Press LWEIGHT + Enter to set display and plot lineweight settings.",
+    "category": "autocad"
+  },
+  {
+    "id": "ac-196",
+    "shortcut": "COLOR",
+    "function": "Color — Set entity color",
+    "description": "Press COLOR + Enter to set the current color for new objects.",
+    "category": "autocad"
+  },
+  {
+    "id": "ac-197",
+    "shortcut": "DDPTYPE",
+    "function": "Point Style — Set point display",
+    "description": "Press DDPTYPE + Enter to set the display style and size of point objects.",
+    "category": "autocad"
+  }
 ]

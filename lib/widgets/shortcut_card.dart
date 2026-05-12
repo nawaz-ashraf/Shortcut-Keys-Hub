@@ -49,6 +49,18 @@ class ShortcutCard extends ConsumerWidget {
                 fontWeight: FontWeight.w600,
               ),
             ),
+            if (item.description != null && item.description!.isNotEmpty) ...[
+              const SizedBox(height: 6),
+              Text(
+                item.description!,
+                style: theme.textTheme.bodySmall?.copyWith(
+                  color: theme.textTheme.bodySmall?.color?.withOpacity(0.6),
+                  height: 1.4,
+                ),
+                maxLines: 3,
+                overflow: TextOverflow.ellipsis,
+              ),
+            ],
             const SizedBox(height: 8),
             Row(
               children: [

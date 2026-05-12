@@ -1,52 +1,620 @@
 [
-  {"id":"tal-001","category":"tally","shortcut":"F1","function":"Help"},
-  {"id":"tal-002","category":"tally","shortcut":"Alt + F1","function":"Detailed/condensed view toggle"},
-  {"id":"tal-003","category":"tally","shortcut":"F2","function":"Change date"},
-  {"id":"tal-004","category":"tally","shortcut":"Alt + F2","function":"Change period"},
-  {"id":"tal-005","category":"tally","shortcut":"F3","function":"Company"},
-  {"id":"tal-006","category":"tally","shortcut":"Alt + F3","function":"Company info"},
-  {"id":"tal-007","category":"tally","shortcut":"F4","function":"Contra voucher"},
-  {"id":"tal-008","category":"tally","shortcut":"F5","function":"Payment voucher"},
-  {"id":"tal-009","category":"tally","shortcut":"F6","function":"Receipt voucher"},
-  {"id":"tal-010","category":"tally","shortcut":"F7","function":"Journal voucher"},
-  {"id":"tal-011","category":"tally","shortcut":"F8","function":"Sales voucher"},
-  {"id":"tal-012","category":"tally","shortcut":"Ctrl + F8","function":"Credit Note"},
-  {"id":"tal-013","category":"tally","shortcut":"F9","function":"Purchase voucher"},
-  {"id":"tal-014","category":"tally","shortcut":"Ctrl + F9","function":"Debit Note"},
-  {"id":"tal-015","category":"tally","shortcut":"F10","function":"Reversing Journal"},
-  {"id":"tal-016","category":"tally","shortcut":"F11","function":"Features"},
-  {"id":"tal-017","category":"tally","shortcut":"F12","function":"Configuration"},
-  {"id":"tal-018","category":"tally","shortcut":"Ctrl + N","function":"New voucher"},
-  {"id":"tal-019","category":"tally","shortcut":"Ctrl + Q","function":"Quit"},
-  {"id":"tal-020","category":"tally","shortcut":"Ctrl + A","function":"Accept screen/form"},
-  {"id":"tal-021","category":"tally","shortcut":"Ctrl + D","function":"Delete voucher"},
-  {"id":"tal-022","category":"tally","shortcut":"Ctrl + I","function":"Insert voucher"},
-  {"id":"tal-023","category":"tally","shortcut":"Alt + C","function":"Create master at entry"},
-  {"id":"tal-024","category":"tally","shortcut":"Alt + F5","function":"Sales Order"},
-  {"id":"tal-025","category":"tally","shortcut":"Alt + F6","function":"Purchase Order"},
-  {"id":"tal-026","category":"tally","shortcut":"Alt + F7","function":"Stock Journal"},
-  {"id":"tal-027","category":"tally","shortcut":"Alt + F8","function":"Delivery Note"},
-  {"id":"tal-028","category":"tally","shortcut":"Alt + F9","function":"Receipt Note"},
-  {"id":"tal-029","category":"tally","shortcut":"Alt + F10","function":"Physical Stock"},
-  {"id":"tal-030","category":"tally","shortcut":"Ctrl + F1","function":"Select company"},
-  {"id":"tal-031","category":"tally","shortcut":"Alt + F1","function":"Expand line item"},
-  {"id":"tal-032","category":"tally","shortcut":"Alt + F4","function":"Contra order"},
-  {"id":"tal-033","category":"tally","shortcut":"Alt + F12","function":"Configure screen"},
-  {"id":"tal-034","category":"tally","shortcut":"Ctrl + P","function":"Print"},
-  {"id":"tal-035","category":"tally","shortcut":"Ctrl + H","function":"Change company"},
-  {"id":"tal-036","category":"tally","shortcut":"Ctrl + L","function":"Ledger"},
-  {"id":"tal-037","category":"tally","shortcut":"Ctrl + B","function":"Balance sheet"},
-  {"id":"tal-038","category":"tally","shortcut":"Ctrl + G","function":"Go to voucher"},
-  {"id":"tal-039","category":"tally","shortcut":"Ctrl + O","function":"Company select"},
-  {"id":"tal-040","category":"tally","shortcut":"Ctrl + M","function":"Monthly summary"},
-  {"id":"tal-041","category":"tally","shortcut":"Alt + P","function":"Print report"},
-  {"id":"tal-042","category":"tally","shortcut":"Alt + E","function":"Export"},
-  {"id":"tal-043","category":"tally","shortcut":"Alt + M","function":"E-mail report"},
-  {"id":"tal-044","category":"tally","shortcut":"Alt + W","function":"Web publish"},
-  {"id":"tal-045","category":"tally","shortcut":"Alt + R","function":"Repeat narration"},
-  {"id":"tal-046","category":"tally","shortcut":"Alt + 2","function":"Duplicate voucher"},
-  {"id":"tal-047","category":"tally","shortcut":"Alt + X","function":"Cancel voucher"},
-  {"id":"tal-048","category":"tally","shortcut":"Alt + D","function":"Delete line"},
-  {"id":"tal-049","category":"tally","shortcut":"Ctrl + Shift + N","function":"Create new company"},
-  {"id":"tal-050","category":"tally","shortcut":"Alt + F7","function":"Stock journal / manufacturing"}
+  {
+    "id": "tal-001",
+    "category": "tally",
+    "shortcut": "F1",
+    "function": "Help"
+  },
+  {
+    "id": "tal-002",
+    "category": "tally",
+    "shortcut": "Alt + F1",
+    "function": "Detailed/condensed view toggle"
+  },
+  {
+    "id": "tal-003",
+    "category": "tally",
+    "shortcut": "F2",
+    "function": "Change date"
+  },
+  {
+    "id": "tal-004",
+    "category": "tally",
+    "shortcut": "Alt + F2",
+    "function": "Change period"
+  },
+  {
+    "id": "tal-005",
+    "category": "tally",
+    "shortcut": "F3",
+    "function": "Company"
+  },
+  {
+    "id": "tal-006",
+    "category": "tally",
+    "shortcut": "Alt + F3",
+    "function": "Company info"
+  },
+  {
+    "id": "tal-007",
+    "category": "tally",
+    "shortcut": "F4",
+    "function": "Contra voucher"
+  },
+  {
+    "id": "tal-008",
+    "category": "tally",
+    "shortcut": "F5",
+    "function": "Payment voucher"
+  },
+  {
+    "id": "tal-009",
+    "category": "tally",
+    "shortcut": "F6",
+    "function": "Receipt voucher"
+  },
+  {
+    "id": "tal-010",
+    "category": "tally",
+    "shortcut": "F7",
+    "function": "Journal voucher"
+  },
+  {
+    "id": "tal-011",
+    "category": "tally",
+    "shortcut": "F8",
+    "function": "Sales voucher"
+  },
+  {
+    "id": "tal-012",
+    "category": "tally",
+    "shortcut": "Ctrl + F8",
+    "function": "Credit Note"
+  },
+  {
+    "id": "tal-013",
+    "category": "tally",
+    "shortcut": "F9",
+    "function": "Purchase voucher"
+  },
+  {
+    "id": "tal-014",
+    "category": "tally",
+    "shortcut": "Ctrl + F9",
+    "function": "Debit Note"
+  },
+  {
+    "id": "tal-015",
+    "category": "tally",
+    "shortcut": "F10",
+    "function": "Reversing Journal"
+  },
+  {
+    "id": "tal-016",
+    "category": "tally",
+    "shortcut": "F11",
+    "function": "Features"
+  },
+  {
+    "id": "tal-017",
+    "category": "tally",
+    "shortcut": "F12",
+    "function": "Configuration"
+  },
+  {
+    "id": "tal-018",
+    "category": "tally",
+    "shortcut": "Ctrl + N",
+    "function": "New voucher"
+  },
+  {
+    "id": "tal-019",
+    "category": "tally",
+    "shortcut": "Ctrl + Q",
+    "function": "Quit"
+  },
+  {
+    "id": "tal-020",
+    "category": "tally",
+    "shortcut": "Ctrl + A",
+    "function": "Accept screen/form"
+  },
+  {
+    "id": "tal-021",
+    "category": "tally",
+    "shortcut": "Ctrl + D",
+    "function": "Delete voucher"
+  },
+  {
+    "id": "tal-022",
+    "category": "tally",
+    "shortcut": "Ctrl + I",
+    "function": "Insert voucher"
+  },
+  {
+    "id": "tal-023",
+    "category": "tally",
+    "shortcut": "Alt + C",
+    "function": "Create master at entry"
+  },
+  {
+    "id": "tal-024",
+    "category": "tally",
+    "shortcut": "Alt + F5",
+    "function": "Sales Order"
+  },
+  {
+    "id": "tal-025",
+    "category": "tally",
+    "shortcut": "Alt + F6",
+    "function": "Purchase Order"
+  },
+  {
+    "id": "tal-026",
+    "category": "tally",
+    "shortcut": "Alt + F7",
+    "function": "Stock Journal"
+  },
+  {
+    "id": "tal-027",
+    "category": "tally",
+    "shortcut": "Alt + F8",
+    "function": "Delivery Note"
+  },
+  {
+    "id": "tal-028",
+    "category": "tally",
+    "shortcut": "Alt + F9",
+    "function": "Receipt Note"
+  },
+  {
+    "id": "tal-029",
+    "category": "tally",
+    "shortcut": "Alt + F10",
+    "function": "Physical Stock"
+  },
+  {
+    "id": "tal-030",
+    "category": "tally",
+    "shortcut": "Ctrl + F1",
+    "function": "Select company"
+  },
+  {
+    "id": "tal-031",
+    "category": "tally",
+    "shortcut": "Alt + F1",
+    "function": "Expand line item"
+  },
+  {
+    "id": "tal-032",
+    "category": "tally",
+    "shortcut": "Alt + F4",
+    "function": "Contra order"
+  },
+  {
+    "id": "tal-033",
+    "category": "tally",
+    "shortcut": "Alt + F12",
+    "function": "Configure screen"
+  },
+  {
+    "id": "tal-034",
+    "category": "tally",
+    "shortcut": "Ctrl + P",
+    "function": "Print"
+  },
+  {
+    "id": "tal-035",
+    "category": "tally",
+    "shortcut": "Ctrl + H",
+    "function": "Change company"
+  },
+  {
+    "id": "tal-036",
+    "category": "tally",
+    "shortcut": "Ctrl + L",
+    "function": "Ledger"
+  },
+  {
+    "id": "tal-037",
+    "category": "tally",
+    "shortcut": "Ctrl + B",
+    "function": "Balance sheet"
+  },
+  {
+    "id": "tal-038",
+    "category": "tally",
+    "shortcut": "Ctrl + G",
+    "function": "Go to voucher"
+  },
+  {
+    "id": "tal-039",
+    "category": "tally",
+    "shortcut": "Ctrl + O",
+    "function": "Company select"
+  },
+  {
+    "id": "tal-040",
+    "category": "tally",
+    "shortcut": "Ctrl + M",
+    "function": "Monthly summary"
+  },
+  {
+    "id": "tal-041",
+    "category": "tally",
+    "shortcut": "Alt + P",
+    "function": "Print report"
+  },
+  {
+    "id": "tal-042",
+    "category": "tally",
+    "shortcut": "Alt + E",
+    "function": "Export"
+  },
+  {
+    "id": "tal-043",
+    "category": "tally",
+    "shortcut": "Alt + M",
+    "function": "E-mail report"
+  },
+  {
+    "id": "tal-044",
+    "category": "tally",
+    "shortcut": "Alt + W",
+    "function": "Web publish"
+  },
+  {
+    "id": "tal-045",
+    "category": "tally",
+    "shortcut": "Alt + R",
+    "function": "Repeat narration"
+  },
+  {
+    "id": "tal-046",
+    "category": "tally",
+    "shortcut": "Alt + 2",
+    "function": "Duplicate voucher"
+  },
+  {
+    "id": "tal-047",
+    "category": "tally",
+    "shortcut": "Alt + X",
+    "function": "Cancel voucher"
+  },
+  {
+    "id": "tal-048",
+    "category": "tally",
+    "shortcut": "Alt + D",
+    "function": "Delete line"
+  },
+  {
+    "id": "tal-049",
+    "category": "tally",
+    "shortcut": "Ctrl + Shift + N",
+    "function": "Create new company"
+  },
+  {
+    "id": "tal-050",
+    "category": "tally",
+    "shortcut": "Alt + F7",
+    "function": "Stock journal / manufacturing"
+  },
+  {
+    "id": "tal-051",
+    "shortcut": "Ctrl + Enter",
+    "function": "Accept and save voucher",
+    "category": "tally"
+  },
+  {
+    "id": "tal-052",
+    "shortcut": "Ctrl + F2",
+    "function": "Change voucher mode",
+    "category": "tally"
+  },
+  {
+    "id": "tal-053",
+    "shortcut": "Alt + G",
+    "function": "Go to Gateway of Tally",
+    "category": "tally"
+  },
+  {
+    "id": "tal-054",
+    "shortcut": "Alt + K",
+    "function": "Create stock item",
+    "category": "tally"
+  },
+  {
+    "id": "tal-055",
+    "shortcut": "Alt + H",
+    "function": "Change voucher type",
+    "category": "tally"
+  },
+  {
+    "id": "tal-056",
+    "shortcut": "Alt + J",
+    "function": "Statutory adjustment",
+    "category": "tally"
+  },
+  {
+    "id": "tal-057",
+    "shortcut": "Alt + S",
+    "function": "Stock summary",
+    "category": "tally"
+  },
+  {
+    "id": "tal-058",
+    "shortcut": "Alt + I",
+    "function": "Insert line in voucher",
+    "category": "tally"
+  },
+  {
+    "id": "tal-059",
+    "shortcut": "Ctrl + R",
+    "function": "Repeat narration",
+    "category": "tally"
+  },
+  {
+    "id": "tal-060",
+    "shortcut": "Ctrl + T",
+    "function": "Stock category summary",
+    "category": "tally"
+  },
+  {
+    "id": "tal-061",
+    "shortcut": "Ctrl + F5",
+    "function": "Payroll voucher",
+    "category": "tally"
+  },
+  {
+    "id": "tal-062",
+    "shortcut": "Ctrl + F6",
+    "function": "Rejection In note",
+    "category": "tally"
+  },
+  {
+    "id": "tal-063",
+    "shortcut": "Ctrl + F7",
+    "function": "Rejection Out note",
+    "category": "tally"
+  },
+  {
+    "id": "tal-064",
+    "shortcut": "Ctrl + F4",
+    "function": "Payroll auto journal",
+    "category": "tally"
+  },
+  {
+    "id": "tal-065",
+    "shortcut": "Ctrl + F10",
+    "function": "Memorandum voucher",
+    "category": "tally"
+  },
+  {
+    "id": "tal-066",
+    "shortcut": "Ctrl + Alt + F1",
+    "function": "Day Book report",
+    "category": "tally"
+  },
+  {
+    "id": "tal-067",
+    "shortcut": "F1 (at Gateway)",
+    "function": "Select accounts info",
+    "category": "tally"
+  },
+  {
+    "id": "tal-068",
+    "shortcut": "Alt + F12 (reports)",
+    "function": "Range filter in report",
+    "category": "tally"
+  },
+  {
+    "id": "tal-069",
+    "shortcut": "Ctrl + Alt + I",
+    "function": "Statutory info settings",
+    "category": "tally"
+  },
+  {
+    "id": "tal-070",
+    "shortcut": "Ctrl + Alt + B",
+    "function": "Check balance sheet",
+    "category": "tally"
+  },
+  {
+    "id": "tal-071",
+    "shortcut": "Ctrl + Alt + R",
+    "function": "View registers",
+    "category": "tally"
+  },
+  {
+    "id": "tal-072",
+    "shortcut": "Ctrl + Shift + D",
+    "function": "Delete company data",
+    "category": "tally"
+  },
+  {
+    "id": "tal-073",
+    "shortcut": "Alt + V",
+    "function": "GST returns view",
+    "category": "tally"
+  },
+  {
+    "id": "tal-074",
+    "shortcut": "Ctrl + Alt + G",
+    "function": "GSTR-1 report",
+    "category": "tally"
+  },
+  {
+    "id": "tal-075",
+    "shortcut": "Ctrl + Alt + H",
+    "function": "GSTR-2 report",
+    "category": "tally"
+  },
+  {
+    "id": "tal-076",
+    "shortcut": "Ctrl + Alt + J",
+    "function": "GSTR-3B report",
+    "category": "tally"
+  },
+  {
+    "id": "tal-077",
+    "shortcut": "Ctrl + E",
+    "function": "Export report to Excel",
+    "category": "tally"
+  },
+  {
+    "id": "tal-078",
+    "shortcut": "Alt + F3 (Company)",
+    "function": "Shut company",
+    "category": "tally"
+  },
+  {
+    "id": "tal-079",
+    "shortcut": "Ctrl + Alt + C",
+    "function": "Create company",
+    "category": "tally"
+  },
+  {
+    "id": "tal-080",
+    "shortcut": "Ctrl + K",
+    "function": "Create cost centre",
+    "category": "tally"
+  },
+  {
+    "id": "tal-081",
+    "shortcut": "Ctrl + Alt + V",
+    "function": "Alter voucher type",
+    "category": "tally"
+  },
+  {
+    "id": "tal-082",
+    "shortcut": "Alt + S (voucher)",
+    "function": "Select stock item",
+    "category": "tally"
+  },
+  {
+    "id": "tal-083",
+    "shortcut": "Ctrl + Shift + F1",
+    "function": "Cash Flow statement",
+    "category": "tally"
+  },
+  {
+    "id": "tal-084",
+    "shortcut": "Ctrl + Shift + F5",
+    "function": "Fund Flow statement",
+    "category": "tally"
+  },
+  {
+    "id": "tal-085",
+    "shortcut": "Ctrl + Shift + B",
+    "function": "Trial Balance",
+    "category": "tally"
+  },
+  {
+    "id": "tal-086",
+    "shortcut": "Ctrl + Shift + P",
+    "function": "Profit & Loss account",
+    "category": "tally"
+  },
+  {
+    "id": "tal-087",
+    "shortcut": "Alt + N",
+    "function": "Toggle auto-numbering",
+    "category": "tally"
+  },
+  {
+    "id": "tal-088",
+    "shortcut": "Ctrl + Shift + Enter",
+    "function": "Accept blank details",
+    "category": "tally"
+  },
+  {
+    "id": "tal-089",
+    "shortcut": "Page Up",
+    "function": "Previous voucher",
+    "category": "tally"
+  },
+  {
+    "id": "tal-090",
+    "shortcut": "Page Down",
+    "function": "Next voucher",
+    "category": "tally"
+  },
+  {
+    "id": "tal-091",
+    "shortcut": "Home",
+    "function": "First voucher in list",
+    "category": "tally"
+  },
+  {
+    "id": "tal-092",
+    "shortcut": "End",
+    "function": "Last voucher in list",
+    "category": "tally"
+  },
+  {
+    "id": "tal-093",
+    "shortcut": "Ctrl + Alt + F2",
+    "function": "Change period scope",
+    "category": "tally"
+  },
+  {
+    "id": "tal-094",
+    "shortcut": "Ctrl + Shift + F8",
+    "function": "Optional voucher",
+    "category": "tally"
+  },
+  {
+    "id": "tal-095",
+    "shortcut": "Alt + G + S",
+    "function": "Stock summary report",
+    "category": "tally"
+  },
+  {
+    "id": "tal-096",
+    "shortcut": "Alt + G + P",
+    "function": "Profit & Loss shortcut",
+    "category": "tally"
+  },
+  {
+    "id": "tal-097",
+    "shortcut": "Alt + G + B",
+    "function": "Balance Sheet shortcut",
+    "category": "tally"
+  },
+  {
+    "id": "tal-098",
+    "shortcut": "Alt + G + R",
+    "function": "All reports menu",
+    "category": "tally"
+  },
+  {
+    "id": "tal-099",
+    "shortcut": "Alt + G + D",
+    "function": "Day Book access",
+    "category": "tally"
+  },
+  {
+    "id": "tal-100",
+    "shortcut": "Alt + G + I",
+    "function": "Inventory reports",
+    "category": "tally"
+  },
+  {
+    "id": "tal-101",
+    "shortcut": "Ctrl + U",
+    "function": "Undo changes in voucher",
+    "category": "tally"
+  },
+  {
+    "id": "tal-102",
+    "shortcut": "Ctrl + Shift + A",
+    "function": "Alter GST details",
+    "category": "tally"
+  },
+  {
+    "id": "tal-103",
+    "shortcut": "Ctrl + Alt + E",
+    "function": "E-Way Bill report",
+    "category": "tally"
+  }
 ]

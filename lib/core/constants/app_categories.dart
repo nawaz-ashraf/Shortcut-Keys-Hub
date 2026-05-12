@@ -10,6 +10,7 @@ class AppCategories {
     icon: Icons.window_rounded,
     dataFile: AppConstants.dataWindows,
     accent: Color(0xFF4E8DFF),
+    logoUrl: 'https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/windows.svg',
   );
 
   static const mac = ShortcutCategory(
@@ -18,6 +19,7 @@ class AppCategories {
     icon: Icons.laptop_mac_rounded,
     dataFile: AppConstants.dataMac,
     accent: Color(0xFFB86BFF),
+    logoUrl: 'https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/apple.svg',
   );
 
   static const excel = ShortcutCategory(
@@ -26,6 +28,7 @@ class AppCategories {
     icon: Icons.grid_view_rounded,
     dataFile: AppConstants.dataExcel,
     accent: Color(0xFF00C48C),
+    logoUrl: 'https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/microsoftexcel.svg',
   );
 
   static const word = ShortcutCategory(
@@ -34,6 +37,7 @@ class AppCategories {
     icon: Icons.description_rounded,
     dataFile: AppConstants.dataWord,
     accent: Color(0xFF3D7BFF),
+    logoUrl: 'https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/microsoftword.svg',
   );
 
   static const powerpoint = ShortcutCategory(
@@ -42,6 +46,7 @@ class AppCategories {
     icon: Icons.slideshow_rounded,
     dataFile: AppConstants.dataPowerPoint,
     accent: Color(0xFFFF8B3D),
+    logoUrl: 'https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/microsoftpowerpoint.svg',
   );
 
   static const tally = ShortcutCategory(
@@ -50,6 +55,7 @@ class AppCategories {
     icon: Icons.account_balance_rounded,
     dataFile: AppConstants.dataTally,
     accent: Color(0xFF2EC4FF),
+    // Tally has no Simple Icons entry; fallback to icon
   );
 
   static const autocad = ShortcutCategory(
@@ -58,6 +64,7 @@ class AppCategories {
     icon: Icons.architecture_rounded,
     dataFile: AppConstants.dataAutoCad,
     accent: Color(0xFFFF5C7A),
+    logoUrl: 'https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/autocad.svg',
   );
 
   static const vscode = ShortcutCategory(
@@ -66,6 +73,7 @@ class AppCategories {
     icon: Icons.code_rounded,
     dataFile: AppConstants.dataVsCode,
     accent: Color(0xFF00D1FF),
+    logoUrl: 'https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/visualstudiocode.svg',
   );
 
   static const chrome = ShortcutCategory(
@@ -74,6 +82,7 @@ class AppCategories {
     icon: Icons.public_rounded,
     dataFile: AppConstants.dataChrome,
     accent: Color(0xFFFFCC29),
+    logoUrl: 'https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/googlechrome.svg',
   );
 
   static const photoshop = ShortcutCategory(
@@ -82,6 +91,7 @@ class AppCategories {
     icon: Icons.brush_rounded,
     dataFile: AppConstants.dataPhotoshop,
     accent: Color(0xFF50C4FF),
+    logoUrl: 'https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/adobephotoshop.svg',
   );
 
   static const all = [

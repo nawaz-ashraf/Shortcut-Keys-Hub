@@ -4,12 +4,14 @@ class ShortcutItem {
     required this.category,
     required this.shortcut,
     required this.function,
+    this.description,
   });
 
   final String id;
   final String category;
   final String shortcut;
   final String function;
+  final String? description;
 
   List<String> get keys => shortcut
       .split('+')
@@ -23,6 +25,7 @@ class ShortcutItem {
       category: json['category'] as String,
       shortcut: json['shortcut'] as String,
       function: json['function'] as String,
+      description: json['description'] as String?,
     );
   }
 
@@ -31,5 +34,6 @@ class ShortcutItem {
     'category': category,
     'shortcut': shortcut,
     'function': function,
+    if (description != null) 'description': description,
   };
 }

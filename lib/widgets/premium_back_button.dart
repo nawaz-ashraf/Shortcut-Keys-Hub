@@ -70,31 +70,43 @@ class _PremiumBackButtonState extends State<PremiumBackButton>
         scale: _scaleAnim.value,
         child: child,
       ),
-      child: GestureDetector(
-        onTap: _handleTap,
-        child: Container(
-          width: 42,
-          height: 42,
-          decoration: BoxDecoration(
-            shape: BoxShape.circle,
-            color: bgColor,
-            boxShadow: [
-              BoxShadow(
-                color: shadowDark,
-                offset: const Offset(3, 3),
-                blurRadius: 8,
+      child: Container(
+        width: 42,
+        height: 42,
+        decoration: BoxDecoration(
+          shape: BoxShape.circle,
+          color: bgColor,
+          boxShadow: [
+            BoxShadow(
+              color: shadowDark,
+              offset: const Offset(3, 3),
+              blurRadius: 8,
+            ),
+            BoxShadow(
+              color: shadowLight,
+              offset: const Offset(-3, -3),
+              blurRadius: 8,
+            ),
+          ],
+        ),
+        child: Material(
+          color: Colors.transparent,
+          child: InkWell(
+            onTap: _handleTap,
+            borderRadius: BorderRadius.circular(21),
+            splashColor: isDark
+                ? Colors.white.withOpacity(0.12)
+                : Colors.black.withOpacity(0.08),
+            highlightColor: isDark
+                ? Colors.white.withOpacity(0.06)
+                : Colors.black.withOpacity(0.04),
+            child: Center(
+              child: Icon(
+                Icons.arrow_back_ios_new_rounded,
+                size: 18,
+                color: iconColor,
               ),
-              BoxShadow(
-                color: shadowLight,
-                offset: const Offset(-3, -3),
-                blurRadius: 8,
-              ),
-            ],
-          ),
-          child: Icon(
-            Icons.arrow_back_ios_new_rounded,
-            size: 18,
-            color: iconColor,
+            ),
           ),
         ),
       ),

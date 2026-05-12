@@ -1,106 +1,884 @@
 [
-  {"id":"xl-001","category":"excel","shortcut":"Ctrl + C","function":"Copy"},
-  {"id":"xl-002","category":"excel","shortcut":"Ctrl + X","function":"Cut"},
-  {"id":"xl-003","category":"excel","shortcut":"Ctrl + V","function":"Paste"},
-  {"id":"xl-004","category":"excel","shortcut":"Ctrl + Z","function":"Undo"},
-  {"id":"xl-005","category":"excel","shortcut":"Ctrl + Y","function":"Redo"},
-  {"id":"xl-006","category":"excel","shortcut":"Ctrl + A","function":"Select all"},
-  {"id":"xl-007","category":"excel","shortcut":"Ctrl + S","function":"Save workbook"},
-  {"id":"xl-008","category":"excel","shortcut":"Ctrl + N","function":"New workbook"},
-  {"id":"xl-009","category":"excel","shortcut":"Ctrl + O","function":"Open workbook"},
-  {"id":"xl-010","category":"excel","shortcut":"Ctrl + P","function":"Print"},
-  {"id":"xl-011","category":"excel","shortcut":"Ctrl + F","function":"Find"},
-  {"id":"xl-012","category":"excel","shortcut":"Ctrl + H","function":"Replace"},
-  {"id":"xl-013","category":"excel","shortcut":"Ctrl + B","function":"Bold"},
-  {"id":"xl-014","category":"excel","shortcut":"Ctrl + I","function":"Italic"},
-  {"id":"xl-015","category":"excel","shortcut":"Ctrl + U","function":"Underline"},
-  {"id":"xl-016","category":"excel","shortcut":"Ctrl + 1","function":"Format Cells dialog"},
-  {"id":"xl-017","category":"excel","shortcut":"Ctrl + 5","function":"Strikethrough"},
-  {"id":"xl-018","category":"excel","shortcut":"Ctrl + K","function":"Insert hyperlink"},
-  {"id":"xl-019","category":"excel","shortcut":"F2","function":"Edit active cell"},
-  {"id":"xl-020","category":"excel","shortcut":"F4","function":"Repeat last action / Toggle absolute references"},
-  {"id":"xl-021","category":"excel","shortcut":"F7","function":"Spell check"},
-  {"id":"xl-022","category":"excel","shortcut":"F9","function":"Calculate all worksheets"},
-  {"id":"xl-023","category":"excel","shortcut":"Shift + F9","function":"Calculate active worksheet"},
-  {"id":"xl-024","category":"excel","shortcut":"F11","function":"Create chart"},
-  {"id":"xl-025","category":"excel","shortcut":"Ctrl + Shift + L","function":"Toggle AutoFilter"},
-  {"id":"xl-026","category":"excel","shortcut":"Ctrl + T","function":"Create table"},
-  {"id":"xl-027","category":"excel","shortcut":"Ctrl + Shift + +","function":"Insert cells/rows/columns"},
-  {"id":"xl-028","category":"excel","shortcut":"Ctrl + -","function":"Delete cells/rows/columns"},
-  {"id":"xl-029","category":"excel","shortcut":"Ctrl + Space","function":"Select entire column"},
-  {"id":"xl-030","category":"excel","shortcut":"Shift + Space","function":"Select entire row"},
-  {"id":"xl-031","category":"excel","shortcut":"Ctrl + Shift + Space","function":"Select entire worksheet"},
-  {"id":"xl-032","category":"excel","shortcut":"Ctrl + Arrow","function":"Jump to edge of data region"},
-  {"id":"xl-033","category":"excel","shortcut":"Ctrl + Shift + Arrow","function":"Select to edge of data region"},
-  {"id":"xl-034","category":"excel","shortcut":"Ctrl + Page Up","function":"Previous worksheet"},
-  {"id":"xl-035","category":"excel","shortcut":"Ctrl + Page Down","function":"Next worksheet"},
-  {"id":"xl-036","category":"excel","shortcut":"Ctrl + Home","function":"Go to A1"},
-  {"id":"xl-037","category":"excel","shortcut":"Ctrl + End","function":"Go to last used cell"},
-  {"id":"xl-038","category":"excel","shortcut":"Ctrl + ;","function":"Insert current date"},
-  {"id":"xl-039","category":"excel","shortcut":"Ctrl + Shift + :","function":"Insert current time"},
-  {"id":"xl-040","category":"excel","shortcut":"Alt + =","function":"AutoSum"},
-  {"id":"xl-041","category":"excel","shortcut":"Ctrl + D","function":"Fill down"},
-  {"id":"xl-042","category":"excel","shortcut":"Ctrl + R","function":"Fill right"},
-  {"id":"xl-043","category":"excel","shortcut":"Ctrl + Enter","function":"Fill selected cells with entry"},
-  {"id":"xl-044","category":"excel","shortcut":"Alt + Enter","function":"Insert line break in cell"},
-  {"id":"xl-045","category":"excel","shortcut":"Ctrl + `","function":"Show/Hide formulas"},
-  {"id":"xl-046","category":"excel","shortcut":"Ctrl + Shift + $","function":"Apply currency format"},
-  {"id":"xl-047","category":"excel","shortcut":"Ctrl + Shift + %","function":"Apply percent format"},
-  {"id":"xl-048","category":"excel","shortcut":"Ctrl + Shift + ^","function":"Apply scientific format"},
-  {"id":"xl-049","category":"excel","shortcut":"Ctrl + Shift + #","function":"Apply date format"},
-  {"id":"xl-050","category":"excel","shortcut":"Ctrl + Shift + @","function":"Apply time format"},
-  {"id":"xl-051","category":"excel","shortcut":"Ctrl + Shift + !","function":"Apply number format"},
-  {"id":"xl-052","category":"excel","shortcut":"Ctrl + Shift + ~","function":"Apply general format"},
-  {"id":"xl-053","category":"excel","shortcut":"Ctrl + Shift + &","function":"Apply outline border"},
-  {"id":"xl-054","category":"excel","shortcut":"Ctrl + Shift + _","function":"Remove outline border"},
-  {"id":"xl-055","category":"excel","shortcut":"Ctrl + 0","function":"Hide selected columns"},
-  {"id":"xl-056","category":"excel","shortcut":"Ctrl + Shift + 0","function":"Unhide columns"},
-  {"id":"xl-057","category":"excel","shortcut":"Ctrl + 9","function":"Hide selected rows"},
-  {"id":"xl-058","category":"excel","shortcut":"Ctrl + Shift + 9","function":"Unhide rows"},
-  {"id":"xl-059","category":"excel","shortcut":"Ctrl + F1","function":"Show/Hide Ribbon"},
-  {"id":"xl-060","category":"excel","shortcut":"Ctrl + F2","function":"Print preview"},
-  {"id":"xl-061","category":"excel","shortcut":"Ctrl + F3","function":"Name Manager"},
-  {"id":"xl-062","category":"excel","shortcut":"Ctrl + F4","function":"Close workbook window"},
-  {"id":"xl-063","category":"excel","shortcut":"Ctrl + F5","function":"Restore workbook window"},
-  {"id":"xl-064","category":"excel","shortcut":"Ctrl + F6","function":"Next workbook window"},
-  {"id":"xl-065","category":"excel","shortcut":"Ctrl + Shift + F6","function":"Previous workbook window"},
-  {"id":"xl-066","category":"excel","shortcut":"Ctrl + F7","function":"Move workbook window"},
-  {"id":"xl-067","category":"excel","shortcut":"Ctrl + F8","function":"Resize workbook window"},
-  {"id":"xl-068","category":"excel","shortcut":"Ctrl + F9","function":"Minimize workbook window"},
-  {"id":"xl-069","category":"excel","shortcut":"Ctrl + F10","function":"Maximize or restore window"},
-  {"id":"xl-070","category":"excel","shortcut":"Ctrl + F11","function":"Insert 4-D chart"},
-  {"id":"xl-071","category":"excel","shortcut":"Ctrl + F12","function":"Open file"},
-  {"id":"xl-072","category":"excel","shortcut":"Ctrl + Shift + F","function":"Font format dialog"},
-  {"id":"xl-073","category":"excel","shortcut":"Ctrl + Shift + P","function":"Font size dialog"},
-  {"id":"xl-074","category":"excel","shortcut":"Ctrl + Shift + U","function":"Expand/Collapse formula bar"},
-  {"id":"xl-075","category":"excel","shortcut":"Ctrl + Shift + O","function":"Select cells with comments/notes"},
-  {"id":"xl-076","category":"excel","shortcut":"Ctrl + Shift + A","function":"Insert function arguments"},
-  {"id":"xl-077","category":"excel","shortcut":"Ctrl + Shift + C","function":"Copy cell formatting"},
-  {"id":"xl-078","category":"excel","shortcut":"Ctrl + Shift + V","function":"Paste special"},
-  {"id":"xl-079","category":"excel","shortcut":"Ctrl + Shift + K","function":"Insert new worksheet"},
-  {"id":"xl-080","category":"excel","shortcut":"Ctrl + Shift + F2","function":"Edit cell comment"},
-  {"id":"xl-081","category":"excel","shortcut":"Alt + F1","function":"Create embedded chart"},
-  {"id":"xl-082","category":"excel","shortcut":"Alt + F11","function":"Open VBA editor"},
-  {"id":"xl-083","category":"excel","shortcut":"Shift + F11","function":"Insert new worksheet"},
-  {"id":"xl-085","category":"excel","shortcut":"Ctrl + ;","function":"Insert current date"},
-  {"id":"xl-086","category":"excel","shortcut":"Ctrl + Shift + :","function":"Insert current time"},
-  {"id":"xl-087","category":"excel","shortcut":"Ctrl + Alt + V","function":"Paste special dialog"},
-  {"id":"xl-088","category":"excel","shortcut":"Ctrl + Alt + Shift + V","function":"Paste values only"},
-  {"id":"xl-089","category":"excel","shortcut":"Ctrl + Shift + $","function":"Apply currency format"},
-  {"id":"xl-090","category":"excel","shortcut":"Ctrl + Shift + %","function":"Apply percent format"},
-  {"id":"xl-091","category":"excel","shortcut":"Ctrl + Shift + ^","function":"Apply scientific format"},
-  {"id":"xl-092","category":"excel","shortcut":"Ctrl + Shift + #","function":"Apply date format"},
-  {"id":"xl-093","category":"excel","shortcut":"Ctrl + Shift + @","function":"Apply time format"},
-  {"id":"xl-094","category":"excel","shortcut":"Ctrl + Shift + !","function":"Apply number format"},
-  {"id":"xl-095","category":"excel","shortcut":"Ctrl + Shift + ~","function":"Apply general format"},
-  {"id":"xl-096","category":"excel","shortcut":"Ctrl + Shift + 1","function":"Apply number format with two decimals"},
-  {"id":"xl-097","category":"excel","shortcut":"Ctrl + Shift + 2","function":"Apply time format"},
-  {"id":"xl-098","category":"excel","shortcut":"Ctrl + Shift + 3","function":"Apply date format"},
-  {"id":"xl-099","category":"excel","shortcut":"Ctrl + Shift + 4","function":"Apply currency format"},
-  {"id":"xl-100","category":"excel","shortcut":"Ctrl + Shift + 5","function":"Apply percent format"},
-  {"id":"xl-101","category":"excel","shortcut":"Ctrl + Shift + 6","function":"Apply scientific format"},
-  {"id":"xl-102","category":"excel","shortcut":"Ctrl + Shift + 7","function":"Apply outline border"},
-  {"id":"xl-103","category":"excel","shortcut":"Ctrl + Shift + 8","function":"Display all formatting symbols"},
-  {"id":"xl-104","category":"excel","shortcut":"Ctrl + Shift + 9","function":"Hide selected rows"},
-  {"id":"xl-105","category":"excel","shortcut":"Ctrl + Shift + 0","function":"Unhide columns"}
+  {
+    "id": "xl-001",
+    "category": "excel",
+    "shortcut": "Ctrl + C",
+    "function": "Copy"
+  },
+  {
+    "id": "xl-002",
+    "category": "excel",
+    "shortcut": "Ctrl + X",
+    "function": "Cut"
+  },
+  {
+    "id": "xl-003",
+    "category": "excel",
+    "shortcut": "Ctrl + V",
+    "function": "Paste"
+  },
+  {
+    "id": "xl-004",
+    "category": "excel",
+    "shortcut": "Ctrl + Z",
+    "function": "Undo"
+  },
+  {
+    "id": "xl-005",
+    "category": "excel",
+    "shortcut": "Ctrl + Y",
+    "function": "Redo"
+  },
+  {
+    "id": "xl-006",
+    "category": "excel",
+    "shortcut": "Ctrl + A",
+    "function": "Select all"
+  },
+  {
+    "id": "xl-007",
+    "category": "excel",
+    "shortcut": "Ctrl + S",
+    "function": "Save workbook"
+  },
+  {
+    "id": "xl-008",
+    "category": "excel",
+    "shortcut": "Ctrl + N",
+    "function": "New workbook"
+  },
+  {
+    "id": "xl-009",
+    "category": "excel",
+    "shortcut": "Ctrl + O",
+    "function": "Open workbook"
+  },
+  {
+    "id": "xl-010",
+    "category": "excel",
+    "shortcut": "Ctrl + P",
+    "function": "Print"
+  },
+  {
+    "id": "xl-011",
+    "category": "excel",
+    "shortcut": "Ctrl + F",
+    "function": "Find"
+  },
+  {
+    "id": "xl-012",
+    "category": "excel",
+    "shortcut": "Ctrl + H",
+    "function": "Replace"
+  },
+  {
+    "id": "xl-013",
+    "category": "excel",
+    "shortcut": "Ctrl + B",
+    "function": "Bold"
+  },
+  {
+    "id": "xl-014",
+    "category": "excel",
+    "shortcut": "Ctrl + I",
+    "function": "Italic"
+  },
+  {
+    "id": "xl-015",
+    "category": "excel",
+    "shortcut": "Ctrl + U",
+    "function": "Underline"
+  },
+  {
+    "id": "xl-016",
+    "category": "excel",
+    "shortcut": "Ctrl + 1",
+    "function": "Format Cells dialog"
+  },
+  {
+    "id": "xl-017",
+    "category": "excel",
+    "shortcut": "Ctrl + 5",
+    "function": "Strikethrough"
+  },
+  {
+    "id": "xl-018",
+    "category": "excel",
+    "shortcut": "Ctrl + K",
+    "function": "Insert hyperlink"
+  },
+  {
+    "id": "xl-019",
+    "category": "excel",
+    "shortcut": "F2",
+    "function": "Edit active cell"
+  },
+  {
+    "id": "xl-020",
+    "category": "excel",
+    "shortcut": "F4",
+    "function": "Repeat last action / Toggle absolute references"
+  },
+  {
+    "id": "xl-021",
+    "category": "excel",
+    "shortcut": "F7",
+    "function": "Spell check"
+  },
+  {
+    "id": "xl-022",
+    "category": "excel",
+    "shortcut": "F9",
+    "function": "Calculate all worksheets"
+  },
+  {
+    "id": "xl-023",
+    "category": "excel",
+    "shortcut": "Shift + F9",
+    "function": "Calculate active worksheet"
+  },
+  {
+    "id": "xl-024",
+    "category": "excel",
+    "shortcut": "F11",
+    "function": "Create chart"
+  },
+  {
+    "id": "xl-025",
+    "category": "excel",
+    "shortcut": "Ctrl + Shift + L",
+    "function": "Toggle AutoFilter"
+  },
+  {
+    "id": "xl-026",
+    "category": "excel",
+    "shortcut": "Ctrl + T",
+    "function": "Create table"
+  },
+  {
+    "id": "xl-027",
+    "category": "excel",
+    "shortcut": "Ctrl + Shift + +",
+    "function": "Insert cells/rows/columns"
+  },
+  {
+    "id": "xl-028",
+    "category": "excel",
+    "shortcut": "Ctrl + -",
+    "function": "Delete cells/rows/columns"
+  },
+  {
+    "id": "xl-029",
+    "category": "excel",
+    "shortcut": "Ctrl + Space",
+    "function": "Select entire column"
+  },
+  {
+    "id": "xl-030",
+    "category": "excel",
+    "shortcut": "Shift + Space",
+    "function": "Select entire row"
+  },
+  {
+    "id": "xl-031",
+    "category": "excel",
+    "shortcut": "Ctrl + Shift + Space",
+    "function": "Select entire worksheet"
+  },
+  {
+    "id": "xl-032",
+    "category": "excel",
+    "shortcut": "Ctrl + Arrow",
+    "function": "Jump to edge of data region"
+  },
+  {
+    "id": "xl-033",
+    "category": "excel",
+    "shortcut": "Ctrl + Shift + Arrow",
+    "function": "Select to edge of data region"
+  },
+  {
+    "id": "xl-034",
+    "category": "excel",
+    "shortcut": "Ctrl + Page Up",
+    "function": "Previous worksheet"
+  },
+  {
+    "id": "xl-035",
+    "category": "excel",
+    "shortcut": "Ctrl + Page Down",
+    "function": "Next worksheet"
+  },
+  {
+    "id": "xl-036",
+    "category": "excel",
+    "shortcut": "Ctrl + Home",
+    "function": "Go to A1"
+  },
+  {
+    "id": "xl-037",
+    "category": "excel",
+    "shortcut": "Ctrl + End",
+    "function": "Go to last used cell"
+  },
+  {
+    "id": "xl-038",
+    "category": "excel",
+    "shortcut": "Ctrl + ;",
+    "function": "Insert current date"
+  },
+  {
+    "id": "xl-039",
+    "category": "excel",
+    "shortcut": "Ctrl + Shift + :",
+    "function": "Insert current time"
+  },
+  {
+    "id": "xl-040",
+    "category": "excel",
+    "shortcut": "Alt + =",
+    "function": "AutoSum"
+  },
+  {
+    "id": "xl-041",
+    "category": "excel",
+    "shortcut": "Ctrl + D",
+    "function": "Fill down"
+  },
+  {
+    "id": "xl-042",
+    "category": "excel",
+    "shortcut": "Ctrl + R",
+    "function": "Fill right"
+  },
+  {
+    "id": "xl-043",
+    "category": "excel",
+    "shortcut": "Ctrl + Enter",
+    "function": "Fill selected cells with entry"
+  },
+  {
+    "id": "xl-044",
+    "category": "excel",
+    "shortcut": "Alt + Enter",
+    "function": "Insert line break in cell"
+  },
+  {
+    "id": "xl-045",
+    "category": "excel",
+    "shortcut": "Ctrl + `",
+    "function": "Show/Hide formulas"
+  },
+  {
+    "id": "xl-046",
+    "category": "excel",
+    "shortcut": "Ctrl + Shift + $",
+    "function": "Apply currency format"
+  },
+  {
+    "id": "xl-047",
+    "category": "excel",
+    "shortcut": "Ctrl + Shift + %",
+    "function": "Apply percent format"
+  },
+  {
+    "id": "xl-048",
+    "category": "excel",
+    "shortcut": "Ctrl + Shift + ^",
+    "function": "Apply scientific format"
+  },
+  {
+    "id": "xl-049",
+    "category": "excel",
+    "shortcut": "Ctrl + Shift + #",
+    "function": "Apply date format"
+  },
+  {
+    "id": "xl-050",
+    "category": "excel",
+    "shortcut": "Ctrl + Shift + @",
+    "function": "Apply time format"
+  },
+  {
+    "id": "xl-051",
+    "category": "excel",
+    "shortcut": "Ctrl + Shift + !",
+    "function": "Apply number format"
+  },
+  {
+    "id": "xl-052",
+    "category": "excel",
+    "shortcut": "Ctrl + Shift + ~",
+    "function": "Apply general format"
+  },
+  {
+    "id": "xl-053",
+    "category": "excel",
+    "shortcut": "Ctrl + Shift + &",
+    "function": "Apply outline border"
+  },
+  {
+    "id": "xl-054",
+    "category": "excel",
+    "shortcut": "Ctrl + Shift + _",
+    "function": "Remove outline border"
+  },
+  {
+    "id": "xl-055",
+    "category": "excel",
+    "shortcut": "Ctrl + 0",
+    "function": "Hide selected columns"
+  },
+  {
+    "id": "xl-056",
+    "category": "excel",
+    "shortcut": "Ctrl + Shift + 0",
+    "function": "Unhide columns"
+  },
+  {
+    "id": "xl-057",
+    "category": "excel",
+    "shortcut": "Ctrl + 9",
+    "function": "Hide selected rows"
+  },
+  {
+    "id": "xl-058",
+    "category": "excel",
+    "shortcut": "Ctrl + Shift + 9",
+    "function": "Unhide rows"
+  },
+  {
+    "id": "xl-059",
+    "category": "excel",
+    "shortcut": "Ctrl + F1",
+    "function": "Show/Hide Ribbon"
+  },
+  {
+    "id": "xl-060",
+    "category": "excel",
+    "shortcut": "Ctrl + F2",
+    "function": "Print preview"
+  },
+  {
+    "id": "xl-061",
+    "category": "excel",
+    "shortcut": "Ctrl + F3",
+    "function": "Name Manager"
+  },
+  {
+    "id": "xl-062",
+    "category": "excel",
+    "shortcut": "Ctrl + F4",
+    "function": "Close workbook window"
+  },
+  {
+    "id": "xl-063",
+    "category": "excel",
+    "shortcut": "Ctrl + F5",
+    "function": "Restore workbook window"
+  },
+  {
+    "id": "xl-064",
+    "category": "excel",
+    "shortcut": "Ctrl + F6",
+    "function": "Next workbook window"
+  },
+  {
+    "id": "xl-065",
+    "category": "excel",
+    "shortcut": "Ctrl + Shift + F6",
+    "function": "Previous workbook window"
+  },
+  {
+    "id": "xl-066",
+    "category": "excel",
+    "shortcut": "Ctrl + F7",
+    "function": "Move workbook window"
+  },
+  {
+    "id": "xl-067",
+    "category": "excel",
+    "shortcut": "Ctrl + F8",
+    "function": "Resize workbook window"
+  },
+  {
+    "id": "xl-068",
+    "category": "excel",
+    "shortcut": "Ctrl + F9",
+    "function": "Minimize workbook window"
+  },
+  {
+    "id": "xl-069",
+    "category": "excel",
+    "shortcut": "Ctrl + F10",
+    "function": "Maximize or restore window"
+  },
+  {
+    "id": "xl-070",
+    "category": "excel",
+    "shortcut": "Ctrl + F11",
+    "function": "Insert 4-D chart"
+  },
+  {
+    "id": "xl-071",
+    "category": "excel",
+    "shortcut": "Ctrl + F12",
+    "function": "Open file"
+  },
+  {
+    "id": "xl-072",
+    "category": "excel",
+    "shortcut": "Ctrl + Shift + F",
+    "function": "Font format dialog"
+  },
+  {
+    "id": "xl-073",
+    "category": "excel",
+    "shortcut": "Ctrl + Shift + P",
+    "function": "Font size dialog"
+  },
+  {
+    "id": "xl-074",
+    "category": "excel",
+    "shortcut": "Ctrl + Shift + U",
+    "function": "Expand/Collapse formula bar"
+  },
+  {
+    "id": "xl-075",
+    "category": "excel",
+    "shortcut": "Ctrl + Shift + O",
+    "function": "Select cells with comments/notes"
+  },
+  {
+    "id": "xl-076",
+    "category": "excel",
+    "shortcut": "Ctrl + Shift + A",
+    "function": "Insert function arguments"
+  },
+  {
+    "id": "xl-077",
+    "category": "excel",
+    "shortcut": "Ctrl + Shift + C",
+    "function": "Copy cell formatting"
+  },
+  {
+    "id": "xl-078",
+    "category": "excel",
+    "shortcut": "Ctrl + Shift + V",
+    "function": "Paste special"
+  },
+  {
+    "id": "xl-079",
+    "category": "excel",
+    "shortcut": "Ctrl + Shift + K",
+    "function": "Insert new worksheet"
+  },
+  {
+    "id": "xl-080",
+    "category": "excel",
+    "shortcut": "Ctrl + Shift + F2",
+    "function": "Edit cell comment"
+  },
+  {
+    "id": "xl-081",
+    "category": "excel",
+    "shortcut": "Alt + F1",
+    "function": "Create embedded chart"
+  },
+  {
+    "id": "xl-082",
+    "category": "excel",
+    "shortcut": "Alt + F11",
+    "function": "Open VBA editor"
+  },
+  {
+    "id": "xl-083",
+    "category": "excel",
+    "shortcut": "Shift + F11",
+    "function": "Insert new worksheet"
+  },
+  {
+    "id": "xl-087",
+    "category": "excel",
+    "shortcut": "Ctrl + Alt + V",
+    "function": "Paste special dialog"
+  },
+  {
+    "id": "xl-088",
+    "category": "excel",
+    "shortcut": "Ctrl + Alt + Shift + V",
+    "function": "Paste values only"
+  },
+  {
+    "id": "xl-096",
+    "category": "excel",
+    "shortcut": "Ctrl + Shift + 1",
+    "function": "Apply number format with two decimals"
+  },
+  {
+    "id": "xl-097",
+    "category": "excel",
+    "shortcut": "Ctrl + Shift + 2",
+    "function": "Apply time format"
+  },
+  {
+    "id": "xl-098",
+    "category": "excel",
+    "shortcut": "Ctrl + Shift + 3",
+    "function": "Apply date format"
+  },
+  {
+    "id": "xl-099",
+    "category": "excel",
+    "shortcut": "Ctrl + Shift + 4",
+    "function": "Apply currency format"
+  },
+  {
+    "id": "xl-100",
+    "category": "excel",
+    "shortcut": "Ctrl + Shift + 5",
+    "function": "Apply percent format"
+  },
+  {
+    "id": "xl-101",
+    "category": "excel",
+    "shortcut": "Ctrl + Shift + 6",
+    "function": "Apply scientific format"
+  },
+  {
+    "id": "xl-102",
+    "category": "excel",
+    "shortcut": "Ctrl + Shift + 7",
+    "function": "Apply outline border"
+  },
+  {
+    "id": "xl-103",
+    "category": "excel",
+    "shortcut": "Ctrl + Shift + 8",
+    "function": "Display all formatting symbols"
+  },
+  {
+    "id": "xl-200",
+    "shortcut": "Ctrl + Shift + Enter",
+    "function": "Enter array formula",
+    "category": "excel"
+  },
+  {
+    "id": "xl-201",
+    "shortcut": "Alt + H + B",
+    "function": "Add borders menu",
+    "category": "excel"
+  },
+  {
+    "id": "xl-202",
+    "shortcut": "Alt + H + H",
+    "function": "Fill color picker",
+    "category": "excel"
+  },
+  {
+    "id": "xl-203",
+    "shortcut": "Alt + H + F + C",
+    "function": "Font color picker",
+    "category": "excel"
+  },
+  {
+    "id": "xl-204",
+    "shortcut": "Alt + H + A + C",
+    "function": "Center align cell",
+    "category": "excel"
+  },
+  {
+    "id": "xl-205",
+    "shortcut": "Alt + H + W",
+    "function": "Wrap text toggle",
+    "category": "excel"
+  },
+  {
+    "id": "xl-206",
+    "shortcut": "Alt + H + M + M",
+    "function": "Merge and center cells",
+    "category": "excel"
+  },
+  {
+    "id": "xl-207",
+    "shortcut": "Alt + H + O + I",
+    "function": "Auto-fit column width",
+    "category": "excel"
+  },
+  {
+    "id": "xl-208",
+    "shortcut": "Alt + H + O + A",
+    "function": "Auto-fit row height",
+    "category": "excel"
+  },
+  {
+    "id": "xl-209",
+    "shortcut": "Alt + N + V",
+    "function": "Insert Pivot Table",
+    "category": "excel"
+  },
+  {
+    "id": "xl-210",
+    "shortcut": "Alt + N + C",
+    "function": "Insert Column Chart",
+    "category": "excel"
+  },
+  {
+    "id": "xl-211",
+    "shortcut": "Alt + N + N",
+    "function": "Insert Line Chart",
+    "category": "excel"
+  },
+  {
+    "id": "xl-212",
+    "shortcut": "Alt + N + Q",
+    "function": "Insert Pie Chart",
+    "category": "excel"
+  },
+  {
+    "id": "xl-213",
+    "shortcut": "Alt + A + T",
+    "function": "Data Tools menu",
+    "category": "excel"
+  },
+  {
+    "id": "xl-214",
+    "shortcut": "Alt + A + V + V",
+    "function": "Data Validation dialog",
+    "category": "excel"
+  },
+  {
+    "id": "xl-215",
+    "shortcut": "Alt + A + E",
+    "function": "Flash Fill",
+    "category": "excel"
+  },
+  {
+    "id": "xl-216",
+    "shortcut": "Alt + A + M",
+    "function": "Remove Duplicates",
+    "category": "excel"
+  },
+  {
+    "id": "xl-217",
+    "shortcut": "Alt + A + S + S",
+    "function": "Sort ascending",
+    "category": "excel"
+  },
+  {
+    "id": "xl-218",
+    "shortcut": "Alt + A + S + O",
+    "function": "Sort descending",
+    "category": "excel"
+  },
+  {
+    "id": "xl-219",
+    "shortcut": "Alt + A + C",
+    "function": "Clear all filters",
+    "category": "excel"
+  },
+  {
+    "id": "xl-220",
+    "shortcut": "Alt + W + F + F",
+    "function": "Freeze top row panes",
+    "category": "excel"
+  },
+  {
+    "id": "xl-221",
+    "shortcut": "Alt + W + S",
+    "function": "Split window panes",
+    "category": "excel"
+  },
+  {
+    "id": "xl-222",
+    "shortcut": "Alt + W + N",
+    "function": "New window of workbook",
+    "category": "excel"
+  },
+  {
+    "id": "xl-223",
+    "shortcut": "Alt + P + S + P",
+    "function": "Set print area",
+    "category": "excel"
+  },
+  {
+    "id": "xl-224",
+    "shortcut": "Alt + P + B",
+    "function": "Insert page break",
+    "category": "excel"
+  },
+  {
+    "id": "xl-225",
+    "shortcut": "Alt + P + M",
+    "function": "Page margins settings",
+    "category": "excel"
+  },
+  {
+    "id": "xl-226",
+    "shortcut": "Alt + P + O",
+    "function": "Page orientation",
+    "category": "excel"
+  },
+  {
+    "id": "xl-227",
+    "shortcut": "Alt + M + F",
+    "function": "Insert Function wizard",
+    "category": "excel"
+  },
+  {
+    "id": "xl-228",
+    "shortcut": "Alt + M + U",
+    "function": "AutoSum menu",
+    "category": "excel"
+  },
+  {
+    "id": "xl-229",
+    "shortcut": "Alt + M + R",
+    "function": "Recently used functions",
+    "category": "excel"
+  },
+  {
+    "id": "xl-230",
+    "shortcut": "Alt + M + T",
+    "function": "Financial functions",
+    "category": "excel"
+  },
+  {
+    "id": "xl-231",
+    "shortcut": "Alt + M + O",
+    "function": "Logical functions",
+    "category": "excel"
+  },
+  {
+    "id": "xl-232",
+    "shortcut": "Alt + M + E",
+    "function": "Text functions",
+    "category": "excel"
+  },
+  {
+    "id": "xl-233",
+    "shortcut": "Alt + M + D",
+    "function": "Date & Time functions",
+    "category": "excel"
+  },
+  {
+    "id": "xl-234",
+    "shortcut": "Alt + M + Q",
+    "function": "Lookup & Reference functions",
+    "category": "excel"
+  },
+  {
+    "id": "xl-235",
+    "shortcut": "Ctrl + Shift + End",
+    "function": "Select to last used cell",
+    "category": "excel"
+  },
+  {
+    "id": "xl-236",
+    "shortcut": "Ctrl + Shift + Home",
+    "function": "Select to cell A1",
+    "category": "excel"
+  },
+  {
+    "id": "xl-237",
+    "shortcut": "Ctrl + G",
+    "function": "Go To dialog",
+    "category": "excel"
+  },
+  {
+    "id": "xl-238",
+    "shortcut": "Ctrl + Shift + G",
+    "function": "Go To Special dialog",
+    "category": "excel"
+  },
+  {
+    "id": "xl-239",
+    "shortcut": "Ctrl + W",
+    "function": "Close current workbook",
+    "category": "excel"
+  },
+  {
+    "id": "xl-241",
+    "shortcut": "Shift + F2",
+    "function": "Insert/edit cell comment",
+    "category": "excel"
+  },
+  {
+    "id": "xl-242",
+    "shortcut": "Ctrl + Shift + F3",
+    "function": "Create names from selection",
+    "category": "excel"
+  },
+  {
+    "id": "xl-243",
+    "shortcut": "Ctrl + Shift + J",
+    "function": "Consolidate data",
+    "category": "excel"
+  },
+  {
+    "id": "xl-244",
+    "shortcut": "Alt + D + P",
+    "function": "PivotTable wizard",
+    "category": "excel"
+  },
+  {
+    "id": "xl-245",
+    "shortcut": "Alt + D + G + G",
+    "function": "Group selected items",
+    "category": "excel"
+  },
+  {
+    "id": "xl-246",
+    "shortcut": "Alt + D + G + U",
+    "function": "Ungroup selected items",
+    "category": "excel"
+  },
+  {
+    "id": "xl-247",
+    "shortcut": "Ctrl + 8",
+    "function": "Toggle outline symbols",
+    "category": "excel"
+  },
+  {
+    "id": "xl-248",
+    "shortcut": "Alt + Shift + Right",
+    "function": "Group rows/columns",
+    "category": "excel"
+  },
+  {
+    "id": "xl-249",
+    "shortcut": "Alt + Shift + Left",
+    "function": "Ungroup rows/columns",
+    "category": "excel"
+  },
+  {
+    "id": "xl-250",
+    "shortcut": "Ctrl + Shift + F1",
+    "function": "Toggle task pane",
+    "category": "excel"
+  },
+  {
+    "id": "xl-251",
+    "shortcut": "Ctrl + Alt + F9",
+    "function": "Full recalculate all",
+    "category": "excel"
+  },
+  {
+    "id": "xl-252",
+    "shortcut": "Ctrl + Alt + Shift + F9",
+    "function": "Recheck dependent formulas",
+    "category": "excel"
+  },
+  {
+    "id": "xl-253",
+    "shortcut": "Shift + F10",
+    "function": "Show context menu",
+    "category": "excel"
+  },
+  {
+    "id": "xl-254",
+    "shortcut": "Alt + F8",
+    "function": "Open Macro dialog",
+    "category": "excel"
+  }
 ]

@@ -48,51 +48,23 @@ class HomeScreen extends ConsumerWidget {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Text(
-                                'Welcome back',
-                                style: Theme.of(context).textTheme.labelLarge
-                                    ?.copyWith(
-                                      color: Theme.of(
-                                        context,
-                                      ).colorScheme.onSurface.withOpacity(0.7),
-                                    ),
-                              ),
-                              const SizedBox(height: 6),
-                              Text(
-                                'Shortcut Keys Hub',
-                                style: Theme.of(context).textTheme.headlineSmall
-                                    ?.copyWith(fontWeight: FontWeight.bold),
-                              ),
-                            ],
-                          ),
-                          Container(
-                            width: 56,
-                            height: 56,
-                            decoration: BoxDecoration(
-                              shape: BoxShape.circle,
-                              gradient: LinearGradient(
-                                colors: [
-                                  AppConstants.darkAccent,
-                                  AppConstants.darkAccentSecondary,
-                                ],
-                              ),
-                              boxShadow: [
-                                BoxShadow(
-                                  color: AppConstants.darkAccent.withOpacity(
-                                    0.4,
-                                  ),
-                                  blurRadius: 18,
-                                  offset: const Offset(0, 8),
+                          Text(
+                            'Welcome back',
+                            style: Theme.of(context).textTheme.labelLarge
+                                ?.copyWith(
+                                  color: Theme.of(
+                                    context,
+                                  ).colorScheme.onSurface.withOpacity(0.7),
                                 ),
-                              ],
-                            ),
-                            child: const Icon(Icons.bolt_rounded),
+                          ),
+                          const SizedBox(height: 6),
+                          Text(
+                            'Shortcut Keys Hub',
+                            style: Theme.of(context).textTheme.headlineSmall
+                                ?.copyWith(fontWeight: FontWeight.bold),
                           ),
                         ],
                       ),
@@ -159,7 +131,7 @@ class HomeScreen extends ConsumerWidget {
                     return CategoryCard(
                       category: category,
                       count: count,
-                      onTap: () => context.go('/category/${category.id}'),
+                      onTap: () => context.push('/category/${category.id}'),
                     );
                   }, childCount: AppCategories.all.length),
                   gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(

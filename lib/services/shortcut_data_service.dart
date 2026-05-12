@@ -21,6 +21,7 @@ class ShortcutDataService {
             category: category,
             shortcut: item.shortcut,
             function: item.function,
+            description: item.description,
           ),
         )
         .toList();
